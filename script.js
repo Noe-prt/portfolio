@@ -27,6 +27,9 @@ const I18N = {
     "projects.student": "42 School Project",
     "projects.personal": "Personal Project",
     "projects.game": "Game",
+    "projects.badgeStudent": "42 School",
+    "projects.badgeGame": "Game",
+    "projects.badgePersonal": "Personal",
     "experience.title": "Experience",
     "skills.title": "Skills",
     "skills.languages": "Languages",
@@ -69,6 +72,9 @@ const I18N = {
     "projects.student": "Projet école 42",
     "projects.personal": "Projet personnel",
     "projects.game": "Jeu",
+    "projects.badgeStudent": "École 42",
+    "projects.badgeGame": "Jeu",
+    "projects.badgePersonal": "Personnel",
     "experience.title": "Expérience",
     "skills.title": "Compétences",
     "skills.languages": "Langages",
@@ -102,7 +108,7 @@ const DATA = {
         kind: "projects.game",
         desc: "Co-op simulation game I developed as the sole programmer during my internship. Built in 3 months and successfully launched on Steam.",
         tags: ["Unreal Engine", "C++", "Co-op", "Simulation"],
-        image: "https://cdn.akamai.steamstatic.com/steam/apps/4194550/header.jpg",
+        image: "assets/projects/Electrofix.jpg",
         links: [
           { label: "link.steam", url: "https://store.steampowered.com/app/4194550/ElectroFix_Simulator/" }
         ]
@@ -113,8 +119,7 @@ const DATA = {
         kind: "projects.game",
         desc: "Unreal Engine plugin that simulates a mobile phone, compatible with multiplayer. It replicates apps like video calls, messages, camera, web browser and more. Available on Fab.",
         tags: ["Unreal Engine", "C++", "Blueprint", "Plugin", "Multiplayer"],
-        image: "",
-        gradient: ["#3a2a5c", "#12101d"],
+        image: "assets/projects/UMPS.jpg",
         links: [
           { label: "link.fab", url: "https://www.fab.com/listings/0da4dac5-8190-4b24-8a4c-5db19f417f56" }
         ]
@@ -148,8 +153,7 @@ const DATA = {
         kind: "projects.personal",
         desc: "Web app for creating custom icons with AI tools, allowing random icon generation.",
         tags: ["Next.js", "TypeScript", "AI", "Tailwind"],
-        image: "",
-        gradient: ["#14532d", "#0b1410"],
+        image: "assets/projects/Logotham.png",
         links: [
           { label: "link.live", url: "https://logotham.vercel.app/" },
           { label: "link.github", url: "https://github.com/Noe-prt/logotham" }
@@ -161,8 +165,7 @@ const DATA = {
         kind: "projects.student",
         desc: "Graphic design project creating a 3D perspective in a maze using raycasting, similar to the famous Wolfenstein 3D.",
         tags: ["C", "Raycasting", "Graphics"],
-        image: "",
-        gradient: ["#1f3a5f", "#0c1020"],
+        image: "assets/projects/Cub3D.jpg",
         links: [
           { label: "link.github", url: "https://github.com/Noe-prt/42-Cub3D" }
         ]
@@ -173,8 +176,7 @@ const DATA = {
         kind: "projects.student",
         desc: "Simple Unix shell implementation emphasizing shell functionalities, process management and memory handling in C.",
         tags: ["C", "Processes", "Shell"],
-        image: "",
-        gradient: ["#2f2a3d", "#100e16"],
+        image: "assets/projects/minishell.jpg",
         links: [
           { label: "link.github", url: "https://github.com/Noe-prt/minishell" }
         ]
@@ -185,8 +187,7 @@ const DATA = {
         kind: "projects.student",
         desc: "System administration project using Docker to virtualize several images inside a personal virtual machine.",
         tags: ["Docker", "DevOps", "Linux"],
-        image: "",
-        gradient: ["#164e63", "#08121a"],
+        image: "assets/projects/Inception.png",
         links: [
           { label: "link.github", url: "https://github.com/Noe-prt/Inception" }
         ]
@@ -228,7 +229,7 @@ const DATA = {
         kind: "projects.game",
         desc: "Jeu de simulation coopératif développé en tant que programmeur unique pendant mon stage. Créé en 3 mois et lancé avec succès sur Steam.",
         tags: ["Unreal Engine", "C++", "Coopératif", "Simulation"],
-        image: "https://cdn.akamai.steamstatic.com/steam/apps/4194550/header.jpg",
+        image: "assets/projects/Electrofix.jpg",
         links: [
           { label: "link.steam", url: "https://store.steampowered.com/app/4194550/ElectroFix_Simulator/" }
         ]
@@ -239,8 +240,7 @@ const DATA = {
         kind: "projects.game",
         desc: "Plugin Unreal Engine simulant un téléphone portable compatible multijoueur. Il reproduit des applis comme les appels vidéo, les messages, la caméra, le navigateur web et bien plus. Disponible sur Fab.",
         tags: ["Unreal Engine", "C++", "Blueprint", "Plugin", "Multijoueur"],
-        image: "",
-        gradient: ["#3a2a5c", "#12101d"],
+        image: "assets/projects/UMPS.jpg",
         links: [
           { label: "link.fab", url: "https://www.fab.com/listings/0da4dac5-8190-4b24-8a4c-5db19f417f56" }
         ]
@@ -274,8 +274,7 @@ const DATA = {
         kind: "projects.personal",
         desc: "Application web pour la création d'icônes personnalisées avec des outils IA permettant la génération aléatoire d'icônes.",
         tags: ["Next.js", "TypeScript", "IA", "Tailwind"],
-        image: "",
-        gradient: ["#14532d", "#0b1410"],
+        image: "assets/projects/Logotham.png",
         links: [
           { label: "link.live", url: "https://logotham.vercel.app/" },
           { label: "link.github", url: "https://github.com/Noe-prt/logotham" }
@@ -287,8 +286,7 @@ const DATA = {
         kind: "projects.student",
         desc: "Projet de design graphique créant une perspective 3D dans un labyrinthe grâce au raycasting, semblable au célèbre Wolfenstein 3D.",
         tags: ["C", "Raycasting", "Graphique"],
-        image: "",
-        gradient: ["#1f3a5f", "#0c1020"],
+        image: "assets/projects/Cub3D.jpg",
         links: [
           { label: "link.github", url: "https://github.com/Noe-prt/42-Cub3D" }
         ]
@@ -299,8 +297,7 @@ const DATA = {
         kind: "projects.student",
         desc: "Implémentation d'un shell Unix simple mettant l'accent sur les fonctionnalités du shell, la gestion des processus et la mémoire en C.",
         tags: ["C", "Processus", "Shell"],
-        image: "",
-        gradient: ["#2f2a3d", "#100e16"],
+        image: "assets/projects/minishell.jpg",
         links: [
           { label: "link.github", url: "https://github.com/Noe-prt/minishell" }
         ]
@@ -311,8 +308,7 @@ const DATA = {
         kind: "projects.student",
         desc: "Projet d'administration système utilisant Docker pour virtualiser plusieurs images dans une nouvelle machine virtuelle personnelle.",
         tags: ["Docker", "DevOps", "Linux"],
-        image: "",
-        gradient: ["#164e63", "#08121a"],
+        image: "assets/projects/Inception.png",
         links: [
           { label: "link.github", url: "https://github.com/Noe-prt/Inception" }
         ]
@@ -371,12 +367,18 @@ function linksHTML(links, t) {
   return links.map(l => `<a href="${l.url}" target="_blank" rel="noopener noreferrer">${t[l.label]}</a>`).join("");
 }
 
+const badgeKeyFor = (kind) =>
+  kind === "projects.student" ? "projects.badgeStudent"
+  : kind === "projects.game" ? "projects.badgeGame"
+  : "projects.badgePersonal";
+
 function renderProjects(lang) {
   const d = DATA[lang];
   const t = I18N[lang];
   const grid = document.getElementById("projects-grid");
   grid.innerHTML = d.projects.map(p => `
     <article class="project-card">
+      <span class="badge badge-${p.kind === "projects.student" ? "student" : "other"}">${t[badgeKeyFor(p.kind)]}</span>
       ${mediaHTML(p)}
       <div class="project-body">
         <h3 class="project-title">${p.title}</h3>
