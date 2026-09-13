@@ -6,6 +6,6 @@
     </linearGradient>
   </defs>
   <rect width="400" height="400" fill="url(#g)"/>
-  <circle cx="200" cy="200" r="120" fill="none" stroke="#5b6cff" stroke-width="3" opacity="0.35"/>
+  <circle cx="200" cy="200" r="120" fill="none" stroke="#ff8a3d" stroke-width="3" opacity="0.35"/>
   <text x="200" y="244" font-family="Arial, sans-serif" font-size="140" font-weight="bold" text-anchor="middle" fill="#e9e9f0">N</text>
 </svg>
