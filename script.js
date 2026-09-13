@@ -1,5 +1,5 @@
 /* ============================================================
-   Noé Pareti — Portfolio (EN/FR)
+   Noé Pareti | Portfolio (EN/FR)
    ============================================================ */
 
 const I18N = {
@@ -11,19 +11,19 @@ const I18N = {
     "nav.contact": "Contact",
     "hero.greeting": "Hi, I'm",
     "hero.role": "Web Developer & Game Developer",
-    "hero.sub": "I build polished web applications and immersive games — from raycasting mazes to real-time multiplayer worlds.",
+    "hero.sub": "I build polished web applications and immersive games, from raycasting mazes to real-time multiplayer worlds.",
     "hero.viewProjects": "View Projects",
     "hero.contact": "Contact",
     "hero.ageLine": "20 years old · 42 School Student",
     "hero.expLine": "Game Developer Intern @ Adzap",
     "about.title": "About",
-    "about.body": "I'm a 20-year-old web developer and game developer currently studying at 42 school since November 2024. I love building at the intersection of clean web engineering and game design — whether that's a 3D maze rendered with raycasting in C, a real-time multiplayer Pong, or a co-op simulation game launched on Steam.",
+    "about.body": "I'm a 20-year-old web developer and game developer currently studying at 42 school since November 2024. I love building at the intersection of clean web engineering and game design, whether that's a 3D maze rendered with raycasting in C, a real-time multiplayer Pong, or a co-op simulation game launched on Steam.",
     "about.school": "School Student",
     "about.projects": "Projects",
     "about.steam": "Steam Launch",
     "about.langs": "Game Engines +",
     "projects.title": "Projects",
-    "projects.sub": "A selection of my work — from 42 school projects to shipped games.",
+    "projects.sub": "A selection of my work, from 42 school projects to games released on Steam.",
     "projects.badgeSchool": "42 School",
     "projects.badgePersonal": "Personal",
     "projects.badgeProfessional": "Professional",
@@ -53,19 +53,19 @@ const I18N = {
     "nav.contact": "Contact",
     "hero.greeting": "Bonjour, je suis",
     "hero.role": "Développeur Web & Développeur de Jeux Vidéo",
-    "hero.sub": "Je crée des applications web soignées et des jeux immersifs — des labyrinthes en raycasting aux mondes multijoueurs en temps réel.",
+    "hero.sub": "Je crée des applications web soignées et des jeux immersifs, des labyrinthes en raycasting aux mondes multijoueurs en temps réel.",
     "hero.viewProjects": "Voir les projets",
     "hero.contact": "Contact",
     "hero.ageLine": "20 ans · Étudiant à l'école 42",
     "hero.expLine": "Stagiaire Game Developer @ Adzap",
     "about.title": "À propos",
-    "about.body": "Je suis un développeur web et développeur de jeux vidéo de 20 ans, actuellement étudiant à l'école 42 depuis novembre 2024. J'aime créer à l'intersection de l'ingénierie web propre et du game design — que ce soit un labyrinthe 3D en raycasting en C, un Pong multijoueur en temps réel, ou un jeu de simulation coopératif lancé sur Steam.",
+    "about.body": "Je suis un développeur web et développeur de jeux vidéo de 20 ans, actuellement étudiant à l'école 42 depuis novembre 2024. J'aime créer à l'intersection de l'ingénierie web propre et du game design, que ce soit un labyrinthe 3D en raycasting en C, un Pong multijoueur en temps réel, ou un jeu de simulation coopératif lancé sur Steam.",
     "about.school": "Étudiant à 42",
     "about.projects": "Projets",
     "about.steam": "Lancement Steam",
     "about.langs": "Moteurs de jeu +",
     "projects.title": "Projets",
-    "projects.sub": "Une sélection de mon travail — des projets de l'école 42 aux jeux publiés.",
+    "projects.sub": "Une sélection de mon travail, des projets de l'école 42 aux jeux publiés.",
     "projects.badgeSchool": "École 42",
     "projects.badgePersonal": "Personnel",
     "projects.badgeProfessional": "Pro",
@@ -189,16 +189,16 @@ const DATA = {
     ],
     experience: [
       {
-        period: "Feb 2026 — Jul 2026",
+        period: "Feb 2026 to Jul 2026",
         role: "Game Developer Intern",
         org: "Adzap",
         desc: "Sole programmer of ElectroFix Simulator, a co-op simulation game built in 3 months and successfully launched on Steam. Worked on gameplay systems, replication and full game programming."
       },
       {
-        period: "Nov 2024 — Present",
+        period: "Nov 2024 to Present",
         role: "Student",
         org: "42 School",
-        desc: "Intensive peer-to-peer programming curriculum covering C & C++, algorithms, Unix systems, Docker and web development — alongside self-taught game development with Unreal Engine."
+        desc: "Intensive peer-to-peer programming curriculum covering C & C++, algorithms, Unix systems, Docker and web development, alongside self-taught game development with Unreal Engine."
       }
     ],
     skills: [
@@ -310,16 +310,16 @@ const DATA = {
     ],
     experience: [
       {
-        period: "Fév 2026 — Jui 2026",
+        period: "Fév 2026 à Jui 2026",
         role: "Développeur de jeux vidéo (stage)",
         org: "Adzap",
         desc: "Programmeur unique d'ElectroFix Simulator, un jeu de simulation coopératif créé en 3 mois et lancé avec succès sur Steam. Conception des systèmes de gameplay, de la réplication et de toute la programmation du jeu."
       },
       {
-        period: "Nov 2024 — Aujourd'hui",
+        period: "Nov 2024 à aujourd'hui",
         role: "Étudiant",
         org: "École 42",
-        desc: "Cursus de programmation intensif et peer-to-peer couvrant le C & C++, les algorithmes, les systèmes Unix, Docker et le développement web — en parallèle d'un apprentissage autodidacte du game development avec Unreal Engine."
+        desc: "Cursus de programmation intensif et peer-to-peer couvrant le C & C++, les algorithmes, les systèmes Unix, Docker et le développement web, en parallèle d'un apprentissage autodidacte du game development avec Unreal Engine."
       }
     ],
     skills: [
