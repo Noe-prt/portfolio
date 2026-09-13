@@ -24,12 +24,9 @@ const I18N = {
     "about.langs": "Game Engines +",
     "projects.title": "Projects",
     "projects.sub": "A selection of my work — from 42 school projects to shipped games.",
-    "projects.student": "42 School Project",
-    "projects.personal": "Personal Project",
-    "projects.game": "Game",
-    "projects.badgeStudent": "42 School",
-    "projects.badgeGame": "Game",
+    "projects.badgeSchool": "42 School",
     "projects.badgePersonal": "Personal",
+    "projects.badgeProfessional": "Professional",
     "experience.title": "Experience",
     "skills.title": "Skills",
     "skills.languages": "Languages",
@@ -69,12 +66,9 @@ const I18N = {
     "about.langs": "Moteurs de jeu +",
     "projects.title": "Projets",
     "projects.sub": "Une sélection de mon travail — des projets de l'école 42 aux jeux publiés.",
-    "projects.student": "Projet école 42",
-    "projects.personal": "Projet personnel",
-    "projects.game": "Jeu",
-    "projects.badgeStudent": "École 42",
-    "projects.badgeGame": "Jeu",
+    "projects.badgeSchool": "École 42",
     "projects.badgePersonal": "Personnel",
+    "projects.badgeProfessional": "Pro",
     "experience.title": "Expérience",
     "skills.title": "Compétences",
     "skills.languages": "Langages",
@@ -105,7 +99,7 @@ const DATA = {
       {
         id: "electrofix",
         title: "ElectroFix Simulator",
-        kind: "projects.game",
+        kind: "professional",
         desc: "Co-op simulation game I developed as the sole programmer during my internship. Built in 3 months and successfully launched on Steam.",
         tags: ["Unreal Engine", "C++", "Co-op", "Simulation"],
         image: "assets/projects/Electrofix.jpg",
@@ -116,7 +110,7 @@ const DATA = {
       {
         id: "umps",
         title: "UMPS",
-        kind: "projects.game",
+        kind: "personal",
         desc: "Unreal Engine plugin that simulates a mobile phone, compatible with multiplayer. It replicates apps like video calls, messages, camera, web browser and more. Available on Fab.",
         tags: ["Unreal Engine", "C++", "Blueprint", "Plugin", "Multiplayer"],
         image: "assets/projects/UMPS.jpg",
@@ -127,7 +121,7 @@ const DATA = {
       {
         id: "fps",
         title: "Multiplayer FPS",
-        kind: "projects.game",
+        kind: "personal",
         desc: "Multiplayer FPS inspired by CS:GO, built to learn C++ and Unreal Engine replication systems.",
         tags: ["Unreal Engine", "C++", "Networking", "Replication"],
         image: "https://img.youtube.com/vi/lxqgcCfjygo/hqdefault.jpg",
@@ -138,7 +132,7 @@ const DATA = {
       {
         id: "transcendence",
         title: "ft_transcendence",
-        kind: "projects.student",
+        kind: "school",
         desc: "Web application featuring real-time multiplayer Pong with a modern UI, advanced user management and a modular architecture focused on security and accessibility.",
         tags: ["Next.js", "React", "WebSocket", "PostgreSQL", "Redis"],
         image: "https://img.youtube.com/vi/FeF9DL43HT0/hqdefault.jpg",
@@ -150,7 +144,7 @@ const DATA = {
       {
         id: "logotham",
         title: "Logotham",
-        kind: "projects.personal",
+        kind: "personal",
         desc: "Web app for creating custom icons with AI tools, allowing random icon generation.",
         tags: ["Next.js", "TypeScript", "AI", "Tailwind"],
         image: "assets/projects/Logotham.png",
@@ -162,7 +156,7 @@ const DATA = {
       {
         id: "cub3d",
         title: "Cub3D",
-        kind: "projects.student",
+        kind: "school",
         desc: "Graphic design project creating a 3D perspective in a maze using raycasting, similar to the famous Wolfenstein 3D.",
         tags: ["C", "Raycasting", "Graphics"],
         image: "assets/projects/Cub3D.jpg",
@@ -173,7 +167,7 @@ const DATA = {
       {
         id: "minishell",
         title: "Minishell",
-        kind: "projects.student",
+        kind: "school",
         desc: "Simple Unix shell implementation emphasizing shell functionalities, process management and memory handling in C.",
         tags: ["C", "Processes", "Shell"],
         image: "assets/projects/minishell.jpg",
@@ -184,7 +178,7 @@ const DATA = {
       {
         id: "inception",
         title: "Inception",
-        kind: "projects.student",
+        kind: "school",
         desc: "System administration project using Docker to virtualize several images inside a personal virtual machine.",
         tags: ["Docker", "DevOps", "Linux"],
         image: "assets/projects/Inception.png",
@@ -226,7 +220,7 @@ const DATA = {
       {
         id: "electrofix",
         title: "ElectroFix Simulator",
-        kind: "projects.game",
+        kind: "professional",
         desc: "Jeu de simulation coopératif développé en tant que programmeur unique pendant mon stage. Créé en 3 mois et lancé avec succès sur Steam.",
         tags: ["Unreal Engine", "C++", "Coopératif", "Simulation"],
         image: "assets/projects/Electrofix.jpg",
@@ -237,7 +231,7 @@ const DATA = {
       {
         id: "umps",
         title: "UMPS",
-        kind: "projects.game",
+        kind: "personal",
         desc: "Plugin Unreal Engine simulant un téléphone portable compatible multijoueur. Il reproduit des applis comme les appels vidéo, les messages, la caméra, le navigateur web et bien plus. Disponible sur Fab.",
         tags: ["Unreal Engine", "C++", "Blueprint", "Plugin", "Multijoueur"],
         image: "assets/projects/UMPS.jpg",
@@ -248,7 +242,7 @@ const DATA = {
       {
         id: "fps",
         title: "Multiplayer FPS",
-        kind: "projects.game",
+        kind: "personal",
         desc: "FPS multijoueur inspiré de CS:GO, développé pour apprendre le C++ et les systèmes de réplication d'Unreal Engine.",
         tags: ["Unreal Engine", "C++", "Réseau", "Réplication"],
         image: "https://img.youtube.com/vi/lxqgcCfjygo/hqdefault.jpg",
@@ -259,7 +253,7 @@ const DATA = {
       {
         id: "transcendence",
         title: "ft_transcendence",
-        kind: "projects.student",
+        kind: "school",
         desc: "Application web intégrant un Pong multijoueur en temps réel avec une interface moderne, une gestion avancée des utilisateurs et une architecture modulaire axée sur la sécurité et l'accessibilité.",
         tags: ["Next.js", "React", "WebSocket", "PostgreSQL", "Redis"],
         image: "https://img.youtube.com/vi/FeF9DL43HT0/hqdefault.jpg",
@@ -271,7 +265,7 @@ const DATA = {
       {
         id: "logotham",
         title: "Logotham",
-        kind: "projects.personal",
+        kind: "personal",
         desc: "Application web pour la création d'icônes personnalisées avec des outils IA permettant la génération aléatoire d'icônes.",
         tags: ["Next.js", "TypeScript", "IA", "Tailwind"],
         image: "assets/projects/Logotham.png",
@@ -283,7 +277,7 @@ const DATA = {
       {
         id: "cub3d",
         title: "Cub3D",
-        kind: "projects.student",
+        kind: "school",
         desc: "Projet de design graphique créant une perspective 3D dans un labyrinthe grâce au raycasting, semblable au célèbre Wolfenstein 3D.",
         tags: ["C", "Raycasting", "Graphique"],
         image: "assets/projects/Cub3D.jpg",
@@ -294,7 +288,7 @@ const DATA = {
       {
         id: "minishell",
         title: "Minishell",
-        kind: "projects.student",
+        kind: "school",
         desc: "Implémentation d'un shell Unix simple mettant l'accent sur les fonctionnalités du shell, la gestion des processus et la mémoire en C.",
         tags: ["C", "Processus", "Shell"],
         image: "assets/projects/minishell.jpg",
@@ -305,7 +299,7 @@ const DATA = {
       {
         id: "inception",
         title: "Inception",
-        kind: "projects.student",
+        kind: "school",
         desc: "Projet d'administration système utilisant Docker pour virtualiser plusieurs images dans une nouvelle machine virtuelle personnelle.",
         tags: ["Docker", "DevOps", "Linux"],
         image: "assets/projects/Inception.png",
@@ -368,8 +362,8 @@ function linksHTML(links, t) {
 }
 
 const badgeKeyFor = (kind) =>
-  kind === "projects.student" ? "projects.badgeStudent"
-  : kind === "projects.game" ? "projects.badgeGame"
+  kind === "school" ? "projects.badgeSchool"
+  : kind === "professional" ? "projects.badgeProfessional"
   : "projects.badgePersonal";
 
 function renderProjects(lang) {
@@ -378,7 +372,7 @@ function renderProjects(lang) {
   const grid = document.getElementById("projects-grid");
   grid.innerHTML = d.projects.map(p => `
     <article class="project-card">
-      <span class="badge badge-${p.kind === "projects.student" ? "student" : "other"}">${t[badgeKeyFor(p.kind)]}</span>
+      <span class="badge badge-${p.kind}">${t[badgeKeyFor(p.kind)]}</span>
       ${mediaHTML(p)}
       <div class="project-body">
         <h3 class="project-title">${p.title}</h3>

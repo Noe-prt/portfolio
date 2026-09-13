@@ -197,6 +197,28 @@ button { font: inherit; cursor: pointer; }
 .section-sub { color: var(--text-dim); margin-bottom: 32px; max-width: 600px; }
 .section-contact .section-sub { max-width: 520px; margin-left: auto; margin-right: auto; }
 
+.legend {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+}
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.dot-school { background: linear-gradient(135deg, var(--accent), #7b4fff); }
+.dot-personal { background: var(--accent-2); }
+.dot-professional { background: #ffc152; }
+
 /* ---------- About ---------- */
 .about-text { color: var(--text-dim); max-width: 720px; }
 .about-highlights {
@@ -284,15 +306,20 @@ button { font: inherit; cursor: pointer; }
   border-radius: 999px;
   backdrop-filter: blur(6px);
 }
-.badge-student {
+.badge-school {
   background: linear-gradient(135deg, var(--accent), #7b4fff);
   color: #fff;
   box-shadow: 0 6px 16px -6px rgba(91, 108, 255, 0.7);
 }
-.badge-other {
+.badge-personal {
   background: rgba(10, 10, 16, 0.72);
-  border: 1px solid rgba(126, 224, 255, 0.4);
+  border: 1px solid rgba(126, 224, 255, 0.45);
   color: var(--accent-2);
+}
+.badge-professional {
+  background: rgba(10, 10, 16, 0.72);
+  border: 1px solid rgba(255, 193, 82, 0.5);
+  color: #ffc152;
 }
 .project-body { padding: 20px 20px 22px; display: flex; flex-direction: column; flex: 1; }
 .project-title { font-family: "Space Grotesk", sans-serif; font-size: 1.18rem; font-weight: 700; }
