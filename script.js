@@ -13,30 +13,29 @@ const I18N = {
     "hero.caption": "Ideas brought to life, on the web and in games.",
     "hero.greeting": "Hi, I'm",
     "hero.role": "Web Developer & Game Developer",
-    "hero.sub": "I build useful web apps and immersive games. From a shared calendar for two to a co-op world on Steam, I turn ideas into experiences people can use.",
+    "hero.sub": "I build immersive games and useful web apps: ElectroFix Simulator, a co-op game on Steam; UMPS, a multiplayer phone plugin for Unreal Engine; and CoupleTogether, a shared calendar for couples.",
     "hero.viewProjects": "View Projects",
     "hero.contact": "Contact",
     "hero.ageLine": "20 years old · 42 School Student",
     "hero.expLine": "Previously @ Adzap",
     "about.title": "About",
-    "about.body": "I'm a 20-year-old web developer and game developer currently studying at 42 school since November 2024. I love building at the intersection of clean web engineering and game design, whether that's CoupleTogether, a shared calendar for couples, a real-time multiplayer Pong, or a co-op simulation game launched on Steam.",
+    "about.body": "I'm a 20-year-old web developer and game developer currently studying at 42 school since November 2024. My work brings together game design and web engineering: ElectroFix Simulator, developed as the sole programmer and launched on Steam; UMPS, a multiplayer phone plugin available on Fab; multiplayer games and systems projects; and CoupleTogether, a shared scheduling web app for couples.",
     "about.school": "School Student",
     "about.projects": "Projects",
     "about.steam": "Steam Launch",
     "about.langs": "Game Engines +",
     "projects.title": "Selected work",
-    "projects.sub": "Shared calendars, multiplayer worlds, and everything I learned building them.",
+    "projects.sub": "ElectroFix Simulator, UMPS, games and systems projects, and CoupleTogether — a shared calendar for couples.",
     "projects.badgeSchool": "42 School",
     "projects.badgePersonal": "Personal",
     "projects.badgeProfessional": "Professional",
-    "experience.title": "Experience",
+    "experience.title": "Professional Experience",
     "skills.title": "Skills",
     "skills.languages": "Languages",
     "skills.web": "Web Development",
     "skills.backend": "Backend & Data",
     "skills.gamedev": "Game Development",
     "skills.tools": "Tools",
-    "skills.product": "Shared scheduling · CoupleTogether",
     "filter.all": "All projects",
     "filter.web": "Web apps",
     "filter.game": "Games & plugins",
@@ -63,30 +62,29 @@ const I18N = {
     "hero.caption": "Des idées qui prennent vie, sur le web et en jeu.",
     "hero.greeting": "Bonjour, je suis",
     "hero.role": "Développeur Web & Développeur de Jeux Vidéo",
-    "hero.sub": "Je crée des applications web utiles et des jeux immersifs. Du calendrier partagé à deux au jeu coopératif sur Steam, je transforme les idées en expériences concrètes.",
+    "hero.sub": "Je crée des jeux immersifs et des applications web utiles : ElectroFix Simulator, un jeu coopératif sur Steam ; UMPS, un plugin de téléphone multijoueur pour Unreal Engine ; et CoupleTogether, un calendrier partagé pour les couples.",
     "hero.viewProjects": "Voir les projets",
     "hero.contact": "Contact",
     "hero.ageLine": "20 ans · Étudiant à l'école 42",
     "hero.expLine": "Ancien stagiaire @ Adzap",
     "about.title": "À propos",
-    "about.body": "Je suis un développeur web et développeur de jeux vidéo de 20 ans, actuellement étudiant à l'école 42 depuis novembre 2024. J'aime créer à l'intersection de l'ingénierie web propre et du game design, que ce soit CoupleTogether, un calendrier partagé pour les couples, un Pong multijoueur en temps réel, ou un jeu de simulation coopératif lancé sur Steam.",
+    "about.body": "Je suis un développeur web et développeur de jeux vidéo de 20 ans, étudiant à l'école 42 depuis novembre 2024. Mon travail allie game design et développement web : ElectroFix Simulator, développé en tant que programmeur unique et lancé sur Steam ; UMPS, un plugin de téléphone multijoueur disponible sur Fab ; des jeux multijoueurs et des projets système ; et CoupleTogether, une application web de planning partagé pour les couples.",
     "about.school": "Étudiant à 42",
     "about.projects": "Projets",
     "about.steam": "Lancement Steam",
     "about.langs": "Moteurs de jeu +",
     "projects.title": "Projets choisis",
-    "projects.sub": "Calendriers partagés, mondes multijoueurs et tout ce que leur création m’a appris.",
+    "projects.sub": "ElectroFix Simulator, UMPS, des jeux et des projets système, et CoupleTogether, un calendrier partagé pour les couples.",
     "projects.badgeSchool": "École 42",
     "projects.badgePersonal": "Personnel",
     "projects.badgeProfessional": "Pro",
-    "experience.title": "Expérience",
+    "experience.title": "Expérience professionnelle",
     "skills.title": "Compétences",
     "skills.languages": "Langages",
     "skills.web": "Développement Web",
     "skills.backend": "Backend & Data",
     "skills.gamedev": "Développement de Jeux",
     "skills.tools": "Outils",
-    "skills.product": "Planning partagé · CoupleTogether",
     "filter.all": "Tous les projets",
     "filter.web": "Applications web",
     "filter.game": "Jeux & plugins",
@@ -133,15 +131,6 @@ const DATA = {
         links: [
           { label: "link.fab", url: "https://www.fab.com/listings/0da4dac5-8190-4b24-8a4c-5db19f417f56" }
         ]
-      },
-      {
-        id: "coupletogether",
-        title: "CoupleTogether",
-        kind: "personal",
-        desc: "A shared scheduling web app for couples. See both partners’ plans day by day, organize recurring events, and duplicate days or weeks. Built with persistent shared calendars, responsive views, and version checks that prevent conflicting edits.",
-        tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
-        image: "assets/projects/CoupleTogether.svg",
-        links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
       },
       {
         id: "fps",
@@ -210,6 +199,15 @@ const DATA = {
         links: [
           { label: "link.github", url: "https://github.com/Noe-prt/Inception" }
         ]
+      },
+      {
+        id: "coupletogether",
+        title: "CoupleTogether",
+        kind: "personal",
+        desc: "A shared scheduling web app for couples. See both partners’ plans day by day, organize recurring events, and duplicate days or weeks. Built with persistent shared calendars, responsive views, and version checks that prevent conflicting edits.",
+        tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
+        image: "assets/projects/CoupleTogether.svg",
+        links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
       }
     ],
     experience: [
@@ -230,9 +228,8 @@ const DATA = {
       { title: "skills.languages", list: ["C++", "Blueprint", "C", "C#", "GDScript", "TypeScript", "SQL"] },
       { title: "skills.gamedev", list: ["Unreal Engine", "Unity", "Godot", "Multiplayer Networking", "Replication Systems", "Plugin Development (Fab)", "Client-Server Architecture", "Game Systems Design"] },
       { title: "skills.web", list: ["React", "Next.js", "WebSocket", "JavaScript", "TypeScript", "HTML", "CSS", "Responsive Design", "Accessibility"] },
-      { title: "skills.backend", list: ["Redis", "PostgreSQL", "Drizzle ORM", "REST APIs", "Zod", "Database Migrations", "Stripe", "better-auth"] },
-      { title: "skills.tools", list: ["Git", "Visual Studio", "Docker"] },
-      { title: "skills.product", list: ["REST APIs & Zod validation", "Database modeling & migrations", "Concurrent editing & version checks"] }
+      { title: "skills.backend", list: ["Redis", "PostgreSQL", "Drizzle ORM", "REST APIs", "Zod Validation", "Database Modeling", "Database Migrations", "Concurrent Editing", "Version Checks", "Stripe", "better-auth"] },
+      { title: "skills.tools", list: ["Git", "Visual Studio", "Docker"] }
     ],
     hobbies: [
       { icon: "🎾", name: "Tennis", cls: "Tennis" },
@@ -243,15 +240,6 @@ const DATA = {
   },
   fr: {
     projects: [
-      {
-        id: "coupletogether",
-        title: "CoupleTogether",
-        kind: "personal",
-        desc: "Une application web de planning partagé pour les couples. Consultez les emplois du temps de chacun, créez des événements récurrents et dupliquez des journées ou des semaines. Calendriers persistants, vues adaptatives et contrôles de version pour éviter les conflits de modification.",
-        tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
-        image: "assets/projects/CoupleTogether.svg",
-        links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
-      },
       {
         id: "electrofix",
         title: "ElectroFix Simulator",
@@ -341,6 +329,15 @@ const DATA = {
         links: [
           { label: "link.github", url: "https://github.com/Noe-prt/Inception" }
         ]
+      },
+      {
+        id: "coupletogether",
+        title: "CoupleTogether",
+        kind: "personal",
+        desc: "Une application web de planning partagé pour les couples. Consultez les emplois du temps de chacun, créez des événements récurrents et dupliquez des journées ou des semaines. Calendriers persistants, vues adaptatives et contrôles de version pour éviter les conflits de modification.",
+        tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
+        image: "assets/projects/CoupleTogether.svg",
+        links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
       }
     ],
     experience: [
@@ -361,9 +358,8 @@ const DATA = {
       { title: "skills.languages", list: ["C++", "Blueprint", "C", "C#", "GDScript", "TypeScript", "SQL"] },
       { title: "skills.gamedev", list: ["Unreal Engine", "Unity", "Godot", "Multijoueur / Réseau", "Systèmes de réplication", "Développement de plugins (Fab)", "Architecture Client-Serveur", "Game Systems Design"] },
       { title: "skills.web", list: ["React", "Next.js", "WebSocket", "JavaScript", "TypeScript", "HTML", "CSS", "Design adaptatif", "Accessibilité"] },
-      { title: "skills.backend", list: ["Redis", "PostgreSQL", "Drizzle ORM", "API REST", "Zod", "Migrations de base de données", "Stripe", "better-auth"] },
-      { title: "skills.tools", list: ["Git", "Visual Studio", "Docker"] },
-      { title: "skills.product", list: ["API REST & validation avec Zod", "Modélisation & migrations de base de données", "Modifications simultanées & contrôles de version"] }
+      { title: "skills.backend", list: ["Redis", "PostgreSQL", "Drizzle ORM", "API REST", "Validation avec Zod", "Modélisation de base de données", "Migrations de base de données", "Modifications simultanées", "Contrôles de version", "Stripe", "better-auth"] },
+      { title: "skills.tools", list: ["Git", "Visual Studio", "Docker"] }
     ],
     hobbies: [
       { icon: "🎾", name: "Tennis", cls: "Tennis" },
