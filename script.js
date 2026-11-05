@@ -113,15 +113,6 @@ const DATA = {
   en: {
     projects: [
       {
-        id: "coupletogether",
-        title: "CoupleTogether",
-        kind: "personal",
-        desc: "A shared scheduling web app for couples. See both partners’ plans day by day, organize recurring events, and duplicate days or weeks. Built with persistent shared calendars, responsive views, and version checks that prevent conflicting edits.",
-        tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
-        image: "assets/projects/CoupleTogether.svg",
-        links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
-      },
-      {
         id: "electrofix",
         title: "ElectroFix Simulator",
         kind: "professional",
@@ -142,6 +133,15 @@ const DATA = {
         links: [
           { label: "link.fab", url: "https://www.fab.com/listings/0da4dac5-8190-4b24-8a4c-5db19f417f56" }
         ]
+      },
+      {
+        id: "coupletogether",
+        title: "CoupleTogether",
+        kind: "personal",
+        desc: "A shared scheduling web app for couples. See both partners’ plans day by day, organize recurring events, and duplicate days or weeks. Built with persistent shared calendars, responsive views, and version checks that prevent conflicting edits.",
+        tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
+        image: "assets/projects/CoupleTogether.svg",
+        links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
       },
       {
         id: "fps",
