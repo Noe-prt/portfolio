@@ -9,21 +9,23 @@ const I18N = {
     "nav.experience": "Experience",
     "nav.skills": "Skills",
     "nav.contact": "Contact",
+    "hero.eyebrow": "PORTFOLIO / WEB & GAME DEVELOPMENT",
+    "hero.caption": "Ideas brought to life, on the web and in games.",
     "hero.greeting": "Hi, I'm",
     "hero.role": "Web Developer & Game Developer",
-    "hero.sub": "I build polished web applications and immersive games, from raycasting mazes to real-time multiplayer worlds.",
+    "hero.sub": "I build useful web apps and immersive games. From a shared calendar for two to a co-op world on Steam, I turn ideas into experiences people can use.",
     "hero.viewProjects": "View Projects",
     "hero.contact": "Contact",
     "hero.ageLine": "20 years old · 42 School Student",
-    "hero.expLine": "Game Developer Intern @ Adzap",
+    "hero.expLine": "Previously @ Adzap",
     "about.title": "About",
-    "about.body": "I'm a 20-year-old web developer and game developer currently studying at 42 school since November 2024. I love building at the intersection of clean web engineering and game design, whether that's a 3D maze rendered with raycasting in C, a real-time multiplayer Pong, or a co-op simulation game launched on Steam.",
+    "about.body": "I'm a 20-year-old web developer and game developer currently studying at 42 school since November 2024. I love building at the intersection of clean web engineering and game design, whether that's CoupleTogether, a shared calendar for couples, a real-time multiplayer Pong, or a co-op simulation game launched on Steam.",
     "about.school": "School Student",
     "about.projects": "Projects",
     "about.steam": "Steam Launch",
     "about.langs": "Game Engines +",
-    "projects.title": "Projects",
-    "projects.sub": "A selection of my work, from 42 school projects to games released on Steam.",
+    "projects.title": "Selected work",
+    "projects.sub": "Shared calendars, multiplayer worlds, and everything I learned building them.",
     "projects.badgeSchool": "42 School",
     "projects.badgePersonal": "Personal",
     "projects.badgeProfessional": "Professional",
@@ -34,6 +36,25 @@ const I18N = {
     "skills.backend": "Backend & Data",
     "skills.gamedev": "Game Development",
     "skills.tools": "Tools",
+    "skills.product": "Shared scheduling · CoupleTogether",
+    "filter.all": "All projects",
+    "filter.web": "Web apps",
+    "filter.game": "Games & plugins",
+    "filter.systems": "Systems",
+    "projects.filters": "Project categories",
+    "project.featured": "IN FOCUS / WEB APPLICATION",
+    "project.learned": "Skills developed",
+    "calendar.caption": "Illustrative schedule preview",
+    "calendar.title": "A little more time, together.",
+    "calendar.week": "A shared week",
+    "calendar.you": "You",
+    "calendar.partner": "Your partner",
+    "calendar.together": "Together",
+    "calendar.days": "MON,TUE,WED,THU,FRI",
+    "calendar.work": "Work",
+    "calendar.lunch": "Lunch",
+    "calendar.date": "Date night",
+    "calendar.gym": "Gym",
     "hobbies.title": "Hobbies",
     "hobbies.sub": "Outside of code, you'll find me doing one of these.",
     "contact.title": "Let's connect",
@@ -51,21 +72,23 @@ const I18N = {
     "nav.experience": "Expérience",
     "nav.skills": "Compétences",
     "nav.contact": "Contact",
+    "hero.eyebrow": "PORTFOLIO / WEB & JEUX VIDÉO",
+    "hero.caption": "Des idées qui prennent vie, sur le web et en jeu.",
     "hero.greeting": "Bonjour, je suis",
     "hero.role": "Développeur Web & Développeur de Jeux Vidéo",
-    "hero.sub": "Je crée des applications web soignées et des jeux immersifs, des labyrinthes en raycasting aux mondes multijoueurs en temps réel.",
+    "hero.sub": "Je crée des applications web utiles et des jeux immersifs. Du calendrier partagé à deux au jeu coopératif sur Steam, je transforme les idées en expériences concrètes.",
     "hero.viewProjects": "Voir les projets",
     "hero.contact": "Contact",
     "hero.ageLine": "20 ans · Étudiant à l'école 42",
-    "hero.expLine": "Stagiaire Game Developer @ Adzap",
+    "hero.expLine": "Ancien stagiaire @ Adzap",
     "about.title": "À propos",
-    "about.body": "Je suis un développeur web et développeur de jeux vidéo de 20 ans, actuellement étudiant à l'école 42 depuis novembre 2024. J'aime créer à l'intersection de l'ingénierie web propre et du game design, que ce soit un labyrinthe 3D en raycasting en C, un Pong multijoueur en temps réel, ou un jeu de simulation coopératif lancé sur Steam.",
+    "about.body": "Je suis un développeur web et développeur de jeux vidéo de 20 ans, actuellement étudiant à l'école 42 depuis novembre 2024. J'aime créer à l'intersection de l'ingénierie web propre et du game design, que ce soit CoupleTogether, un calendrier partagé pour les couples, un Pong multijoueur en temps réel, ou un jeu de simulation coopératif lancé sur Steam.",
     "about.school": "Étudiant à 42",
     "about.projects": "Projets",
     "about.steam": "Lancement Steam",
     "about.langs": "Moteurs de jeu +",
-    "projects.title": "Projets",
-    "projects.sub": "Une sélection de mon travail, des projets de l'école 42 aux jeux publiés.",
+    "projects.title": "Projets choisis",
+    "projects.sub": "Calendriers partagés, mondes multijoueurs et tout ce que leur création m’a appris.",
     "projects.badgeSchool": "École 42",
     "projects.badgePersonal": "Personnel",
     "projects.badgeProfessional": "Pro",
@@ -76,6 +99,25 @@ const I18N = {
     "skills.backend": "Backend & Data",
     "skills.gamedev": "Développement de Jeux",
     "skills.tools": "Outils",
+    "skills.product": "Planning partagé · CoupleTogether",
+    "filter.all": "Tous les projets",
+    "filter.web": "Applications web",
+    "filter.game": "Jeux & plugins",
+    "filter.systems": "Systèmes",
+    "projects.filters": "Catégories de projets",
+    "project.featured": "À LA UNE / APPLICATION WEB",
+    "project.learned": "Compétences développées",
+    "calendar.caption": "Aperçu illustratif du planning",
+    "calendar.title": "Un peu plus de temps, ensemble.",
+    "calendar.week": "Une semaine à deux",
+    "calendar.you": "Vous",
+    "calendar.partner": "Votre partenaire",
+    "calendar.together": "Ensemble",
+    "calendar.days": "LUN,MAR,MER,JEU,VEN",
+    "calendar.work": "Travail",
+    "calendar.lunch": "Déjeuner",
+    "calendar.date": "Soirée à deux",
+    "calendar.gym": "Sport",
     "hobbies.title": "Passe-temps",
     "hobbies.sub": "En dehors du code, vous me trouverez en train de faire l'une de ces activités.",
     "contact.title": "Contactons-nous",
@@ -96,6 +138,15 @@ const I18N = {
 const DATA = {
   en: {
     projects: [
+      {
+        id: "coupletogether",
+        title: "CoupleTogether",
+        kind: "personal",
+        desc: "A shared scheduling web app for couples. See both partners’ plans day by day, organize recurring events, and duplicate days or weeks. Built with persistent shared calendars, responsive views, and version checks that prevent conflicting edits.",
+        tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
+        learned: ["REST APIs & Zod validation", "Database modeling & migrations", "Concurrent editing & version checks"],
+        links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
+      },
       {
         id: "electrofix",
         title: "ElectroFix Simulator",
@@ -204,9 +255,10 @@ const DATA = {
     skills: [
       { title: "skills.languages", list: ["C++", "Blueprint", "C", "C#", "GDScript", "TypeScript", "SQL"] },
       { title: "skills.gamedev", list: ["Unreal Engine", "Unity", "Godot", "Multiplayer Networking", "Replication Systems", "Plugin Development (Fab)", "Client-Server Architecture", "Game Systems Design"] },
-      { title: "skills.web", list: ["React", "Next.js", "WebSocket", "JavaScript", "TypeScript", "HTML", "CSS"] },
-      { title: "skills.backend", list: ["Redis", "PostgreSQL", "Stripe", "better-auth"] },
-      { title: "skills.tools", list: ["Git", "Visual Studio", "Docker"] }
+      { title: "skills.web", list: ["React", "Next.js", "WebSocket", "JavaScript", "TypeScript", "HTML", "CSS", "Responsive Design", "Accessibility"] },
+      { title: "skills.backend", list: ["Redis", "PostgreSQL", "Drizzle ORM", "REST APIs", "Zod", "Database Migrations", "Stripe", "better-auth"] },
+      { title: "skills.tools", list: ["Git", "Visual Studio", "Docker"] },
+      { title: "skills.product", list: ["REST APIs & Zod validation", "Database modeling & migrations", "Concurrent editing & version checks"] }
     ],
     hobbies: [
       { icon: "🎾", name: "Tennis", cls: "Tennis" },
@@ -217,6 +269,15 @@ const DATA = {
   },
   fr: {
     projects: [
+      {
+        id: "coupletogether",
+        title: "CoupleTogether",
+        kind: "personal",
+        desc: "Une application web de planning partagé pour les couples. Consultez les emplois du temps de chacun, créez des événements récurrents et dupliquez des journées ou des semaines. Calendriers persistants, vues adaptatives et contrôles de version pour éviter les conflits de modification.",
+        tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
+        learned: ["API REST & validation avec Zod", "Modélisation & migrations de base de données", "Modifications simultanées & contrôles de version"],
+        links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
+      },
       {
         id: "electrofix",
         title: "ElectroFix Simulator",
@@ -310,7 +371,7 @@ const DATA = {
     ],
     experience: [
       {
-        period: "Fév 2026 à Jui 2026",
+        period: "Fév 2026 à Juil 2026",
         role: "Développeur de jeux vidéo (stage)",
         org: "Adzap",
         desc: "Programmeur unique d'ElectroFix Simulator, un jeu de simulation coopératif créé en 3 mois et lancé avec succès sur Steam. Conception des systèmes de gameplay, de la réplication et de toute la programmation du jeu."
@@ -325,9 +386,10 @@ const DATA = {
     skills: [
       { title: "skills.languages", list: ["C++", "Blueprint", "C", "C#", "GDScript", "TypeScript", "SQL"] },
       { title: "skills.gamedev", list: ["Unreal Engine", "Unity", "Godot", "Multijoueur / Réseau", "Systèmes de réplication", "Développement de plugins (Fab)", "Architecture Client-Serveur", "Game Systems Design"] },
-      { title: "skills.web", list: ["React", "Next.js", "WebSocket", "JavaScript", "TypeScript", "HTML", "CSS"] },
-      { title: "skills.backend", list: ["Redis", "PostgreSQL", "Stripe", "better-auth"] },
-      { title: "skills.tools", list: ["Git", "Visual Studio", "Docker"] }
+      { title: "skills.web", list: ["React", "Next.js", "WebSocket", "JavaScript", "TypeScript", "HTML", "CSS", "Design adaptatif", "Accessibilité"] },
+      { title: "skills.backend", list: ["Redis", "PostgreSQL", "Drizzle ORM", "API REST", "Zod", "Migrations de base de données", "Stripe", "better-auth"] },
+      { title: "skills.tools", list: ["Git", "Visual Studio", "Docker"] },
+      { title: "skills.product", list: ["API REST & validation avec Zod", "Modélisation & migrations de base de données", "Modifications simultanées & contrôles de version"] }
     ],
     hobbies: [
       { icon: "🎾", name: "Tennis", cls: "Tennis" },
@@ -343,6 +405,22 @@ const DATA = {
    ============================================================ */
 
 const initials = { electrofix: "EF", umps: "UMPS", fps: "FPS", transcendence: "P", logotham: "L", cub3d: "C", minishell: "$", inception: "I" };
+
+function calendarHTML(lang) {
+  const t = I18N[lang];
+  const days = t["calendar.days"].split(",");
+  return `<div class="calendar-art" role="img" aria-label="${t['calendar.caption']}">
+    <div class="calendar-brand">couple<span>together</span><span class="calendar-heart" aria-hidden="true">♡</span></div>
+    <p class="calendar-headline">${t['calendar.title']}</p>
+    <div class="calendar-window">
+      <div class="calendar-toolbar"><strong>${t['calendar.week']}</strong><span aria-hidden="true">‹ &nbsp; ›</span></div>
+      <div class="calendar-legend"><span>${t['calendar.you']}</span><span>${t['calendar.partner']}</span><span>${t['calendar.together']}</span></div>
+      <div class="calendar-days">${days.map((day, i) => `<span>${day}<b>${12 + i}</b></span>`).join('')}</div>
+      <div class="calendar-slots"><span class="calendar-event event-work">09:00<br>${t['calendar.work']}</span><span class="calendar-event event-gym">10:00<br>${t['calendar.gym']}</span><span class="calendar-event event-lunch">12:30<br>${t['calendar.lunch']}</span><span class="calendar-event event-date">19:00<br>${t['calendar.date']} ♡</span></div>
+    </div>
+    <p class="calendar-note">${t['calendar.caption']}</p>
+  </div>`;
+}
 
 function mediaHTML(p) {
   if (p.image) {
@@ -366,19 +444,27 @@ const badgeKeyFor = (kind) =>
   : kind === "professional" ? "projects.badgeProfessional"
   : "projects.badgePersonal";
 
+let activeFilter = "all";
+let currentLang = "en";
+const categoryFor = id => ["coupletogether", "transcendence", "logotham"].includes(id) ? "web"
+  : ["electrofix", "umps", "fps", "cub3d"].includes(id) ? "game" : "systems";
+
 function renderProjects(lang) {
   const d = DATA[lang];
   const t = I18N[lang];
   const grid = document.getElementById("projects-grid");
-  grid.innerHTML = d.projects.map(p => `
-    <article class="project-card">
+  document.getElementById("project-count").textContent = d.projects.length;
+  grid.innerHTML = d.projects.filter(p => activeFilter === "all" || categoryFor(p.id) === activeFilter).map(p => `
+    <article class="project-card ${p.id === "coupletogether" ? "project-featured" : ""}">
       <span class="badge badge-${p.kind}">${t[badgeKeyFor(p.kind)]}</span>
-      ${mediaHTML(p)}
+      ${p.id === "coupletogether" ? calendarHTML(lang) : mediaHTML(p)}
       <div class="project-body">
+        ${p.id === "coupletogether" ? `<p class="project-eyebrow">${t['project.featured']}</p>` : ""}
         <h3 class="project-title">${p.title}</h3>
         <p class="project-desc">${p.desc}</p>
         <div class="project-tags">${p.tags.map(x => `<span>${x}</span>`).join("")}</div>
-        <div class="project-links">${linksHTML(p.links, t)}</div>
+        ${p.learned ? `<div class="project-learning"><h4>${t['project.learned']}</h4><ul>${p.learned.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ""}
+        ${p.links.length ? `<div class="project-links">${linksHTML(p.links, t)}</div>` : ""}
       </div>
     </article>`).join("");
 }
@@ -410,7 +496,6 @@ function renderHobbies(lang) {
     <div class="hobby">
       <div class="hobby-icon">${h.icon}</div>
       <div class="hobby-name">${h.name}</div>
-      <div class="hobby-class">${h.cls}</div>
     </div>`).join("");
 }
 
@@ -419,6 +504,7 @@ function renderHobbies(lang) {
    ============================================================ */
 
 function applyLang(lang) {
+  currentLang = lang;
   const t = I18N[lang];
   document.documentElement.lang = lang;
   document.documentElement.dataset.lang = lang;
@@ -434,6 +520,9 @@ function applyLang(lang) {
     btn.setAttribute("aria-pressed", String(active));
   });
 
+  document.querySelectorAll("[data-i18n-aria]").forEach(el => {
+    el.setAttribute("aria-label", t[el.dataset.i18nAria]);
+  });
   renderProjects(lang);
   renderTimeline(lang);
   renderSkills(lang);
@@ -447,6 +536,16 @@ document.addEventListener("DOMContentLoaded", () => {
   try { saved = localStorage.getItem("lang") || "en"; } catch (e) {}
   applyLang(saved === "fr" ? "fr" : "en");
 
+  document.querySelectorAll(".filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      activeFilter = btn.dataset.filter;
+      document.querySelectorAll(".filter-btn").forEach(filter => {
+        filter.classList.toggle("active", filter === btn);
+        filter.setAttribute("aria-pressed", String(filter === btn));
+      });
+      renderProjects(currentLang);
+    });
+  });
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     btn.addEventListener("click", () => applyLang(btn.dataset.lang === "fr" ? "fr" : "en"));
   });
