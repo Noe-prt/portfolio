@@ -42,19 +42,6 @@ const I18N = {
     "filter.game": "Games & plugins",
     "filter.systems": "Systems",
     "projects.filters": "Project categories",
-    "project.featured": "IN FOCUS / WEB APPLICATION",
-    "project.learned": "Skills developed",
-    "calendar.caption": "Illustrative schedule preview",
-    "calendar.title": "A little more time, together.",
-    "calendar.week": "A shared week",
-    "calendar.you": "You",
-    "calendar.partner": "Your partner",
-    "calendar.together": "Together",
-    "calendar.days": "MON,TUE,WED,THU,FRI",
-    "calendar.work": "Work",
-    "calendar.lunch": "Lunch",
-    "calendar.date": "Date night",
-    "calendar.gym": "Gym",
     "hobbies.title": "Hobbies",
     "hobbies.sub": "Outside of code, you'll find me doing one of these.",
     "contact.title": "Let's connect",
@@ -105,19 +92,6 @@ const I18N = {
     "filter.game": "Jeux & plugins",
     "filter.systems": "Systèmes",
     "projects.filters": "Catégories de projets",
-    "project.featured": "À LA UNE / APPLICATION WEB",
-    "project.learned": "Compétences développées",
-    "calendar.caption": "Aperçu illustratif du planning",
-    "calendar.title": "Un peu plus de temps, ensemble.",
-    "calendar.week": "Une semaine à deux",
-    "calendar.you": "Vous",
-    "calendar.partner": "Votre partenaire",
-    "calendar.together": "Ensemble",
-    "calendar.days": "LUN,MAR,MER,JEU,VEN",
-    "calendar.work": "Travail",
-    "calendar.lunch": "Déjeuner",
-    "calendar.date": "Soirée à deux",
-    "calendar.gym": "Sport",
     "hobbies.title": "Passe-temps",
     "hobbies.sub": "En dehors du code, vous me trouverez en train de faire l'une de ces activités.",
     "contact.title": "Contactons-nous",
@@ -144,7 +118,7 @@ const DATA = {
         kind: "personal",
         desc: "A shared scheduling web app for couples. See both partners’ plans day by day, organize recurring events, and duplicate days or weeks. Built with persistent shared calendars, responsive views, and version checks that prevent conflicting edits.",
         tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
-        learned: ["REST APIs & Zod validation", "Database modeling & migrations", "Concurrent editing & version checks"],
+        image: "assets/projects/CoupleTogether.svg",
         links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
       },
       {
@@ -275,7 +249,7 @@ const DATA = {
         kind: "personal",
         desc: "Une application web de planning partagé pour les couples. Consultez les emplois du temps de chacun, créez des événements récurrents et dupliquez des journées ou des semaines. Calendriers persistants, vues adaptatives et contrôles de version pour éviter les conflits de modification.",
         tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
-        learned: ["API REST & validation avec Zod", "Modélisation & migrations de base de données", "Modifications simultanées & contrôles de version"],
+        image: "assets/projects/CoupleTogether.svg",
         links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
       },
       {
@@ -404,23 +378,7 @@ const DATA = {
    Render
    ============================================================ */
 
-const initials = { electrofix: "EF", umps: "UMPS", fps: "FPS", transcendence: "P", logotham: "L", cub3d: "C", minishell: "$", inception: "I" };
-
-function calendarHTML(lang) {
-  const t = I18N[lang];
-  const days = t["calendar.days"].split(",");
-  return `<div class="calendar-art" role="img" aria-label="${t['calendar.caption']}">
-    <div class="calendar-brand">couple<span>together</span><span class="calendar-heart" aria-hidden="true">♡</span></div>
-    <p class="calendar-headline">${t['calendar.title']}</p>
-    <div class="calendar-window">
-      <div class="calendar-toolbar"><strong>${t['calendar.week']}</strong><span aria-hidden="true">‹ &nbsp; ›</span></div>
-      <div class="calendar-legend"><span>${t['calendar.you']}</span><span>${t['calendar.partner']}</span><span>${t['calendar.together']}</span></div>
-      <div class="calendar-days">${days.map((day, i) => `<span>${day}<b>${12 + i}</b></span>`).join('')}</div>
-      <div class="calendar-slots"><span class="calendar-event event-work">09:00<br>${t['calendar.work']}</span><span class="calendar-event event-gym">10:00<br>${t['calendar.gym']}</span><span class="calendar-event event-lunch">12:30<br>${t['calendar.lunch']}</span><span class="calendar-event event-date">19:00<br>${t['calendar.date']} ♡</span></div>
-    </div>
-    <p class="calendar-note">${t['calendar.caption']}</p>
-  </div>`;
-}
+const initials = { coupletogether: "CT", electrofix: "EF", umps: "UMPS", fps: "FPS", transcendence: "P", logotham: "L", cub3d: "C", minishell: "$", inception: "I" };
 
 function mediaHTML(p) {
   if (p.image) {
@@ -455,15 +413,13 @@ function renderProjects(lang) {
   const grid = document.getElementById("projects-grid");
   document.getElementById("project-count").textContent = d.projects.length;
   grid.innerHTML = d.projects.filter(p => activeFilter === "all" || categoryFor(p.id) === activeFilter).map(p => `
-    <article class="project-card ${p.id === "coupletogether" ? "project-featured" : ""}">
+    <article class="project-card">
       <span class="badge badge-${p.kind}">${t[badgeKeyFor(p.kind)]}</span>
-      ${p.id === "coupletogether" ? calendarHTML(lang) : mediaHTML(p)}
+      ${mediaHTML(p)}
       <div class="project-body">
-        ${p.id === "coupletogether" ? `<p class="project-eyebrow">${t['project.featured']}</p>` : ""}
         <h3 class="project-title">${p.title}</h3>
         <p class="project-desc">${p.desc}</p>
         <div class="project-tags">${p.tags.map(x => `<span>${x}</span>`).join("")}</div>
-        ${p.learned ? `<div class="project-learning"><h4>${t['project.learned']}</h4><ul>${p.learned.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ""}
         ${p.links.length ? `<div class="project-links">${linksHTML(p.links, t)}</div>` : ""}
       </div>
     </article>`).join("");
