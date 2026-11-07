@@ -1,371 +1,256 @@
 /* ============================================================
-   Noé Pareti | Portfolio (EN/FR)
+   Noé Pareti | Portfolio (FR/EN)
    ============================================================ */
 
 const I18N = {
-  en: {
-    "nav.about": "About",
-    "nav.projects": "Projects",
-    "nav.experience": "Experience",
-    "nav.skills": "Skills",
-    "nav.contact": "Contact",
-    "hero.eyebrow": "PORTFOLIO / WEB & GAME DEVELOPMENT",
-    "hero.caption": "Ideas brought to life, on the web and in games.",
-    "hero.greeting": "Hi, I'm",
-    "hero.role": "Web Developer & Game Developer",
-    "hero.sub": "I build immersive games and useful web apps: ElectroFix Simulator, a co-op game on Steam; UMPS, a multiplayer phone plugin for Unreal Engine; and CoupleTogether, a shared calendar for couples.",
-    "hero.viewProjects": "View Projects",
-    "hero.contact": "Contact",
-    "hero.ageLine": "20 years old · 42 School Student",
-    "hero.expLine": "Previously @ Adzap",
-    "about.title": "About",
-    "about.body": "I'm a 20-year-old web developer and game developer currently studying at 42 school since November 2024. My work brings together game design and web engineering: ElectroFix Simulator, developed as the sole programmer and launched on Steam; UMPS, a multiplayer phone plugin available on Fab; multiplayer games and systems projects; and CoupleTogether, a shared scheduling web app for couples.",
-    "about.school": "School Student",
-    "about.projects": "Projects",
-    "about.steam": "Steam Launch",
-    "about.langs": "Game Engines +",
-    "projects.title": "Selected work",
-    "projects.sub": "ElectroFix Simulator, UMPS, games and systems projects, and CoupleTogether — a shared calendar for couples.",
-    "projects.badgeSchool": "42 School",
-    "projects.badgePersonal": "Personal",
-    "projects.badgeProfessional": "Professional",
-    "experience.title": "Professional Experience",
-    "skills.title": "Skills",
-    "skills.languages": "Languages",
-    "skills.web": "Web Development",
-    "skills.backend": "Backend & Data",
-    "skills.gamedev": "Game Development",
-    "skills.tools": "Tools",
-    "filter.all": "All projects",
-    "filter.web": "Web apps",
-    "filter.game": "Games & plugins",
-    "filter.systems": "Systems",
-    "projects.filters": "Project categories",
-    "hobbies.title": "Hobbies",
-    "hobbies.sub": "Outside of code, you'll find me doing one of these.",
-    "contact.title": "Let's connect",
-    "contact.sub": "I'm always open to interesting projects and opportunities.",
-    "footer.text": "© 2026 Noé Pareti. Built with vanilla HTML, CSS & JS.",
-    "link.github": "GitHub",
-    "link.video": "Watch Video",
-    "link.live": "Live Demo",
-    "link.steam": "Steam",
-    "link.fab": "Fab"
-  },
   fr: {
     "nav.about": "À propos",
     "nav.projects": "Projets",
-    "nav.experience": "Expérience",
+    "nav.experience": "Parcours",
     "nav.skills": "Compétences",
     "nav.contact": "Contact",
-    "hero.eyebrow": "PORTFOLIO / WEB & JEUX VIDÉO",
-    "hero.caption": "Des idées qui prennent vie, sur le web et en jeu.",
+    "hero.status": "Disponible en alternance · dès le 5 janvier 2027",
     "hero.greeting": "Bonjour, je suis",
-    "hero.role": "Développeur Web & Développeur de Jeux Vidéo",
-    "hero.sub": "Je crée des jeux immersifs et des applications web utiles : ElectroFix Simulator, un jeu coopératif sur Steam ; UMPS, un plugin de téléphone multijoueur pour Unreal Engine ; et CoupleTogether, un calendrier partagé pour les couples.",
+    "hero.role": "Développeur Web Full Stack",
+    "hero.sub": "Je conçois des applications web complètes avec React, Next.js, TypeScript et PostgreSQL, du schéma de base de données jusqu'à l'interface.",
     "hero.viewProjects": "Voir les projets",
-    "hero.contact": "Contact",
-    "hero.ageLine": "20 ans · Étudiant à l'école 42",
-    "hero.expLine": "Ancien stagiaire @ Adzap",
+    "hero.cv": "Télécharger mon CV",
+    "hero.ageLine": "20 ans · Étudiant à 42 Paris",
+    "hero.rhythm": "Rythme 2 sem. entreprise / 1 sem. école",
+    "hero.location": "Courbevoie · Paris",
+    "hero.caption": "Des produits web utiles, pensés pour durer.",
     "about.title": "À propos",
-    "about.body": "Je suis un développeur web et développeur de jeux vidéo de 20 ans, étudiant à l'école 42 depuis novembre 2024. Mon travail allie game design et développement web : ElectroFix Simulator, développé en tant que programmeur unique et lancé sur Steam ; UMPS, un plugin de téléphone multijoueur disponible sur Fab ; des jeux multijoueurs et des projets système ; et CoupleTogether, une application web de planning partagé pour les couples.",
-    "about.school": "Étudiant à 42",
-    "about.projects": "Projets",
-    "about.steam": "Lancement Steam",
-    "about.langs": "Moteurs de jeu +",
+    "about.body": "Étudiant à 42 Paris depuis novembre 2024, je prépare le titre RNCP niveau 7 « Expert en architecture informatique ». Je développe des applications web full stack : interfaces React / Next.js, API typées en TypeScript, bases PostgreSQL et déploiement. Pendant mon stage de 6 mois chez Adzap, j'ai conçu et livré seul un produit multijoueur en production — une expérience qui m'a appris à gérer un projet de bout en bout, à tenir des délais et à penser architecture client-serveur. Je recherche aujourd'hui une alternance de 2 ans pour rejoindre une équipe produit.",
+    "about.web": "Applications web",
+    "about.intern": "Mois de stage en production",
+    "about.degree": "Titre visé à 42 Paris",
+    "about.years": "Ans d'alternance recherchés",
     "projects.title": "Projets choisis",
-    "projects.sub": "ElectroFix Simulator, UMPS, des jeux et des projets système, et CoupleTogether, un calendrier partagé pour les couples.",
-    "projects.badgeSchool": "École 42",
-    "projects.badgePersonal": "Personnel",
+    "projects.sub": "Applications web full stack, projets d'infrastructure à 42 et produits livrés en production.",
+    "projects.badgeSchool": "42 Paris",
+    "projects.badgePersonal": "Perso",
     "projects.badgeProfessional": "Pro",
-    "experience.title": "Expérience professionnelle",
+    "experience.title": "Parcours",
     "skills.title": "Compétences",
+    "skills.frontend": "Front-end",
+    "skills.backend": "Back-end & données",
     "skills.languages": "Langages",
-    "skills.web": "Développement Web",
-    "skills.backend": "Backend & Data",
-    "skills.gamedev": "Développement de Jeux",
-    "skills.tools": "Outils",
-    "filter.all": "Tous les projets",
+    "skills.devops": "DevOps & outils",
+    "skills.soft": "Soft skills",
+    "skills.also": "Également",
+    "filter.all": "Tous",
     "filter.web": "Applications web",
-    "filter.game": "Jeux & plugins",
-    "filter.systems": "Systèmes",
+    "filter.systems": "Systèmes & DevOps",
+    "filter.other": "Temps réel & autres",
     "projects.filters": "Catégories de projets",
-    "hobbies.title": "Passe-temps",
-    "hobbies.sub": "En dehors du code, vous me trouverez en train de faire l'une de ces activités.",
-    "contact.title": "Contactons-nous",
-    "contact.sub": "Je suis toujours ouvert aux projets et opportunités intéressants.",
+    "hobbies.title": "En dehors du code",
+    "contact.title": "Travaillons ensemble",
+    "contact.sub": "Je recherche une alternance de 2 ans en développement web à partir du 5 janvier 2027, au rythme de 2 semaines en entreprise / 1 semaine à l'école. Parlons-en !",
+    "contact.cv": "CV (PDF)",
     "footer.text": "© 2026 Noé Pareti. Conçu avec du HTML, CSS & JS pur.",
     "link.github": "GitHub",
     "link.video": "Voir la vidéo",
     "link.live": "Démo en ligne",
     "link.steam": "Steam",
-    "link.fab": "Fab"
+    "link.fab": "Fab",
+    "cv.file": "assets/cv/Noe-Pareti-CV-FR.pdf"
+  },
+  en: {
+    "nav.about": "About",
+    "nav.projects": "Projects",
+    "nav.experience": "Background",
+    "nav.skills": "Skills",
+    "nav.contact": "Contact",
+    "hero.status": "Open to a work-study position · from January 5, 2027",
+    "hero.greeting": "Hi, I'm",
+    "hero.role": "Full Stack Web Developer",
+    "hero.sub": "I build complete web applications with React, Next.js, TypeScript and PostgreSQL, from the database schema all the way to the UI.",
+    "hero.viewProjects": "View projects",
+    "hero.cv": "Download my resume",
+    "hero.ageLine": "20 years old · 42 Paris student",
+    "hero.rhythm": "2 weeks at work / 1 week at school",
+    "hero.location": "Courbevoie · Paris",
+    "hero.caption": "Useful web products, built to last.",
+    "about.title": "About",
+    "about.body": "I've been studying at 42 Paris since November 2024, working towards the RNCP level 7 \"IT Architecture Expert\" degree (Master's equivalent). I build full stack web applications: React / Next.js interfaces, typed TypeScript APIs, PostgreSQL databases and deployment. During my 6-month internship at Adzap, I designed and shipped a multiplayer product to production on my own — which taught me to own a project end to end, meet deadlines and think in client-server architecture. I'm now looking for a 2-year work-study position to join a product team.",
+    "about.web": "Web applications",
+    "about.intern": "Month internship in production",
+    "about.degree": "Degree at 42 Paris",
+    "about.years": "Year work-study wanted",
+    "projects.title": "Selected work",
+    "projects.sub": "Full stack web applications, infrastructure projects at 42 and products shipped to production.",
+    "projects.badgeSchool": "42 Paris",
+    "projects.badgePersonal": "Personal",
+    "projects.badgeProfessional": "Professional",
+    "experience.title": "Background",
+    "skills.title": "Skills",
+    "skills.frontend": "Front-end",
+    "skills.backend": "Back-end & data",
+    "skills.languages": "Languages",
+    "skills.devops": "DevOps & tools",
+    "skills.soft": "Soft skills",
+    "skills.also": "Also",
+    "filter.all": "All",
+    "filter.web": "Web apps",
+    "filter.systems": "Systems & DevOps",
+    "filter.other": "Real-time & other",
+    "projects.filters": "Project categories",
+    "hobbies.title": "Outside of code",
+    "contact.title": "Let's work together",
+    "contact.sub": "I'm looking for a 2-year work-study position in web development starting January 5, 2027, with a 2 weeks at work / 1 week at school schedule. Let's talk!",
+    "contact.cv": "Resume (PDF)",
+    "footer.text": "© 2026 Noé Pareti. Built with vanilla HTML, CSS & JS.",
+    "link.github": "GitHub",
+    "link.video": "Watch video",
+    "link.live": "Live demo",
+    "link.steam": "Steam",
+    "link.fab": "Fab",
+    "cv.file": "assets/cv/Noe-Pareti-CV-EN.pdf"
   }
 };
 
 /* ============================================================
    Content data (per language)
+   Order matters: web projects first.
    ============================================================ */
 
-const DATA = {
+const LINKS = {
+  coupletogether: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }],
+  transcendence: [{ label: "link.video", url: "https://www.youtube.com/watch?v=FeF9DL43HT0" }, { label: "link.github", url: "https://github.com/Noe-prt/ft_transcendence" }],
+  logotham: [{ label: "link.live", url: "https://logotham.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/logotham" }],
+  electrofix: [{ label: "link.steam", url: "https://store.steampowered.com/app/4194550/ElectroFix_Simulator/" }],
+  inception: [{ label: "link.github", url: "https://github.com/Noe-prt/Inception" }],
+  minishell: [{ label: "link.github", url: "https://github.com/Noe-prt/minishell" }],
+  umps: [{ label: "link.fab", url: "https://www.fab.com/listings/0da4dac5-8190-4b24-8a4c-5db19f417f56" }],
+  cub3d: [{ label: "link.github", url: "https://github.com/Noe-prt/42-Cub3D" }]
+};
+
+const IMAGES = {
+  coupletogether: "assets/projects/CoupleTogether.svg",
+  transcendence: "https://img.youtube.com/vi/FeF9DL43HT0/hqdefault.jpg",
+  logotham: "assets/projects/Logotham.png",
+  electrofix: "assets/projects/Electrofix.jpg",
+  inception: "assets/projects/Inception.png",
+  minishell: "assets/projects/minishell.jpg",
+  umps: "assets/projects/UMPS.jpg",
+  cub3d: "assets/projects/Cub3D.jpg"
+};
+
+const META = {
+  coupletogether: { title: "CoupleTogether", kind: "personal", tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Zod"] },
+  transcendence: { title: "ft_transcendence", kind: "school", tags: ["Next.js", "React", "WebSocket", "PostgreSQL", "Redis"] },
+  logotham: { title: "Logotham", kind: "personal", tags: ["Next.js", "TypeScript", "Tailwind", "AI APIs"] },
+  electrofix: { title: "ElectroFix Simulator", kind: "professional", tags: ["C++", "Client-server", "Real-time sync", "Unreal Engine"] },
+  inception: { title: "Inception", kind: "school", tags: ["Docker", "Docker Compose", "Linux", "DevOps"] },
+  minishell: { title: "Minishell", kind: "school", tags: ["C", "Unix", "Processes"] },
+  umps: { title: "UMPS", kind: "personal", tags: ["C++", "Plugin", "Multiplayer", "Unreal Engine"] },
+  cub3d: { title: "Cub3D", kind: "school", tags: ["C", "Raycasting", "Graphics"] }
+};
+
+const DESC = {
+  fr: {
+    coupletogether: "Application web de planning partagé pour les couples : emplois du temps de chacun jour par jour, événements récurrents, duplication de journées ou de semaines. API REST validée avec Zod, migrations PostgreSQL, vues responsive et contrôles de version qui empêchent les conflits d'édition simultanée. Déployée sur Vercel.",
+    transcendence: "Application web complète autour d'un Pong multijoueur en temps réel via WebSocket : authentification, gestion des utilisateurs, interface moderne et architecture modulaire pensée pour la sécurité et l'accessibilité.",
+    logotham: "Application web de génération d'icônes personnalisées grâce à des outils d'IA, avec génération aléatoire. Développée en Next.js / TypeScript et déployée sur Vercel.",
+    electrofix: "Produit livré en production pendant mon stage chez Adzap : seul développeur, de la conception à la sortie sur Steam en 3 mois. Architecture client-serveur et synchronisation temps réel entre joueurs.",
+    inception: "Infrastructure de services conteneurisés avec Docker et Docker Compose sur une machine virtuelle Linux : réseau, volumes et configuration de chaque service.",
+    minishell: "Shell Unix écrit en C : parsing, gestion des processus, pipes, redirections et gestion rigoureuse de la mémoire.",
+    umps: "Plugin publié sur la marketplace Fab qui simule un smartphone en multijoueur (messages, appels vidéo, caméra, navigateur web…). Produit distribué à des utilisateurs réels.",
+    cub3d: "Moteur de rendu 3D par raycasting en C, inspiré de Wolfenstein 3D."
+  },
   en: {
-    projects: [
-      {
-        id: "electrofix",
-        title: "ElectroFix Simulator",
-        kind: "professional",
-        desc: "Co-op simulation game I developed as the sole programmer during my internship. Built in 3 months and successfully launched on Steam.",
-        tags: ["Unreal Engine", "C++", "Co-op", "Simulation"],
-        image: "assets/projects/Electrofix.jpg",
-        links: [
-          { label: "link.steam", url: "https://store.steampowered.com/app/4194550/ElectroFix_Simulator/" }
-        ]
-      },
-      {
-        id: "umps",
-        title: "UMPS",
-        kind: "personal",
-        desc: "Unreal Engine plugin that simulates a mobile phone, compatible with multiplayer. It replicates apps like video calls, messages, camera, web browser and more. Available on Fab.",
-        tags: ["Unreal Engine", "C++", "Blueprint", "Plugin", "Multiplayer"],
-        image: "assets/projects/UMPS.jpg",
-        links: [
-          { label: "link.fab", url: "https://www.fab.com/listings/0da4dac5-8190-4b24-8a4c-5db19f417f56" }
-        ]
-      },
-      {
-        id: "fps",
-        title: "Multiplayer FPS",
-        kind: "personal",
-        desc: "Multiplayer FPS inspired by CS:GO, built to learn C++ and Unreal Engine replication systems.",
-        tags: ["Unreal Engine", "C++", "Networking", "Replication"],
-        image: "https://img.youtube.com/vi/lxqgcCfjygo/hqdefault.jpg",
-        links: [
-          { label: "link.video", url: "https://www.youtube.com/watch?v=lxqgcCfjygo" }
-        ]
-      },
-      {
-        id: "transcendence",
-        title: "ft_transcendence",
-        kind: "school",
-        desc: "Web application featuring real-time multiplayer Pong with a modern UI, advanced user management and a modular architecture focused on security and accessibility.",
-        tags: ["Next.js", "React", "WebSocket", "PostgreSQL", "Redis"],
-        image: "https://img.youtube.com/vi/FeF9DL43HT0/hqdefault.jpg",
-        links: [
-          { label: "link.video", url: "https://www.youtube.com/watch?v=FeF9DL43HT0" },
-          { label: "link.github", url: "https://github.com/Noe-prt/ft_transcendence" }
-        ]
-      },
-      {
-        id: "logotham",
-        title: "Logotham",
-        kind: "personal",
-        desc: "Web app for creating custom icons with AI tools, allowing random icon generation.",
-        tags: ["Next.js", "TypeScript", "AI", "Tailwind"],
-        image: "assets/projects/Logotham.png",
-        links: [
-          { label: "link.live", url: "https://logotham.vercel.app/" },
-          { label: "link.github", url: "https://github.com/Noe-prt/logotham" }
-        ]
-      },
-      {
-        id: "cub3d",
-        title: "Cub3D",
-        kind: "school",
-        desc: "Graphic design project creating a 3D perspective in a maze using raycasting, similar to the famous Wolfenstein 3D.",
-        tags: ["C", "Raycasting", "Graphics"],
-        image: "assets/projects/Cub3D.jpg",
-        links: [
-          { label: "link.github", url: "https://github.com/Noe-prt/42-Cub3D" }
-        ]
-      },
-      {
-        id: "minishell",
-        title: "Minishell",
-        kind: "school",
-        desc: "Simple Unix shell implementation emphasizing shell functionalities, process management and memory handling in C.",
-        tags: ["C", "Processes", "Shell"],
-        image: "assets/projects/minishell.jpg",
-        links: [
-          { label: "link.github", url: "https://github.com/Noe-prt/minishell" }
-        ]
-      },
-      {
-        id: "inception",
-        title: "Inception",
-        kind: "school",
-        desc: "System administration project using Docker to virtualize several images inside a personal virtual machine.",
-        tags: ["Docker", "DevOps", "Linux"],
-        image: "assets/projects/Inception.png",
-        links: [
-          { label: "link.github", url: "https://github.com/Noe-prt/Inception" }
-        ]
-      },
-      {
-        id: "coupletogether",
-        title: "CoupleTogether",
-        kind: "personal",
-        desc: "A shared scheduling web app for couples. See both partners’ plans day by day, organize recurring events, and duplicate days or weeks. Built with persistent shared calendars, responsive views, and version checks that prevent conflicting edits.",
-        tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
-        image: "assets/projects/CoupleTogether.svg",
-        links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
-      }
-    ],
+    coupletogether: "Shared scheduling web app for couples: each partner's plans day by day, recurring events, day and week duplication. REST API validated with Zod, PostgreSQL migrations, responsive views and version checks that prevent concurrent-edit conflicts. Deployed on Vercel.",
+    transcendence: "Full web application built around real-time multiplayer Pong over WebSocket: authentication, user management, modern UI and a modular architecture focused on security and accessibility.",
+    logotham: "Web app that generates custom icons with AI tools, including random generation. Built with Next.js / TypeScript and deployed on Vercel.",
+    electrofix: "Product shipped to production during my internship at Adzap: sole developer, from design to Steam release in 3 months. Client-server architecture and real-time synchronization between players.",
+    inception: "Containerized services infrastructure with Docker and Docker Compose on a Linux virtual machine: networking, volumes and per-service configuration.",
+    minishell: "Unix shell written in C: parsing, process management, pipes, redirections and careful memory handling.",
+    umps: "Plugin published on the Fab marketplace that simulates a smartphone in multiplayer (messages, video calls, camera, web browser…). A product distributed to real users.",
+    cub3d: "3D raycasting renderer written in C, inspired by Wolfenstein 3D."
+  }
+};
+
+const ORDER = ["coupletogether", "transcendence", "logotham", "electrofix", "inception", "minishell", "umps", "cub3d"];
+
+const buildProjects = lang => ORDER.map(id => ({
+  id, ...META[id], desc: DESC[lang][id], image: IMAGES[id], links: LINKS[id]
+}));
+
+const DATA = {
+  fr: {
+    projects: buildProjects("fr"),
     experience: [
       {
-        period: "Feb 2026 to Jul 2026",
-        role: "Game Developer Intern",
-        org: "Adzap",
-        desc: "Sole programmer of ElectroFix Simulator, a co-op simulation game built in 3 months and successfully launched on Steam. Worked on gameplay systems, replication and full game programming."
+        period: "Janv. 2027 → (recherche)",
+        role: "Développeur Web Full Stack en alternance",
+        org: "Votre entreprise ?",
+        desc: "Alternance de 2 ans, rythme 2 semaines en entreprise / 1 semaine à 42 Paris. Envie de rejoindre une équipe produit et de livrer des fonctionnalités utiles, testées et maintenables.",
+        open: true
       },
       {
-        period: "Nov 2024 to Present",
-        role: "Student",
-        org: "42 School",
-        desc: "Intensive peer-to-peer programming curriculum covering C & C++, algorithms, Unix systems, Docker and web development, alongside self-taught game development with Unreal Engine."
+        period: "Fév. 2026 → Juil. 2026",
+        role: "Développeur C++ (stage 6 mois)",
+        org: "Adzap · studio de jeux vidéo",
+        desc: "Seul développeur d'ElectroFix Simulator, de la conception à la mise en production sur Steam en 3 mois. Architecture client-serveur, synchronisation réseau temps réel, cycle de livraison complet (Git, builds, publication)."
+      },
+      {
+        period: "Nov. 2024 → aujourd'hui",
+        role: "Expert en architecture informatique · RNCP 7",
+        org: "42 Paris",
+        desc: "Tronc commun validé : C, C++, algorithmique, systèmes Unix, réseau, Docker et développement web. Pédagogie par projets et peer-learning, sans cours magistraux."
       }
     ],
     skills: [
-      { title: "skills.languages", list: ["C++", "Blueprint", "C", "C#", "GDScript", "TypeScript", "SQL"] },
-      { title: "skills.gamedev", list: ["Unreal Engine", "Unity", "Godot", "Multiplayer Networking", "Replication Systems", "Plugin Development (Fab)", "Client-Server Architecture", "Game Systems Design"] },
-      { title: "skills.web", list: ["React", "Next.js", "WebSocket", "JavaScript", "TypeScript", "HTML", "CSS", "Responsive Design", "Accessibility"] },
-      { title: "skills.backend", list: ["Redis", "PostgreSQL", "Drizzle ORM", "REST APIs", "Zod Validation", "Database Modeling", "Database Migrations", "Concurrent Editing", "Version Checks", "Stripe", "better-auth"] },
-      { title: "skills.tools", list: ["Git", "Visual Studio", "Docker"] }
+      { title: "skills.frontend", list: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML / CSS", "Responsive design", "Accessibilité"] },
+      { title: "skills.backend", list: ["Node.js", "API REST", "WebSocket", "PostgreSQL", "Redis", "Drizzle ORM", "Migrations", "Zod", "better-auth", "Stripe"] },
+      { title: "skills.languages", list: ["TypeScript", "JavaScript", "SQL", "C", "C++"] },
+      { title: "skills.devops", list: ["Git / GitHub", "Docker", "Docker Compose", "Linux", "Vercel", "ESLint"] },
+      { title: "skills.soft", list: ["Autonomie", "Peer-learning", "Code review", "Résolution de problèmes", "Respect des délais"] },
+      { title: "skills.also", list: ["Architecture client-serveur", "Temps réel / réseau", "Unreal Engine"] }
     ],
     hobbies: [
-      { icon: "🎾", name: "Tennis", cls: "Tennis" },
-      { icon: "⚽", name: "Football", cls: "Football" },
-      { icon: "🎸", name: "Guitar", cls: "Guitar" },
-      { icon: "🎮", name: "Video Games", cls: "Video Games" }
+      { icon: "🎮", name: "Création de jeux vidéo" },
+      { icon: "🎾", name: "Tennis" },
+      { icon: "⚽", name: "Football" },
+      { icon: "🎸", name: "Guitare" }
     ]
   },
-  fr: {
-    projects: [
-      {
-        id: "electrofix",
-        title: "ElectroFix Simulator",
-        kind: "professional",
-        desc: "Jeu de simulation coopératif développé en tant que programmeur unique pendant mon stage. Créé en 3 mois et lancé avec succès sur Steam.",
-        tags: ["Unreal Engine", "C++", "Coopératif", "Simulation"],
-        image: "assets/projects/Electrofix.jpg",
-        links: [
-          { label: "link.steam", url: "https://store.steampowered.com/app/4194550/ElectroFix_Simulator/" }
-        ]
-      },
-      {
-        id: "umps",
-        title: "UMPS",
-        kind: "personal",
-        desc: "Plugin Unreal Engine simulant un téléphone portable compatible multijoueur. Il reproduit des applis comme les appels vidéo, les messages, la caméra, le navigateur web et bien plus. Disponible sur Fab.",
-        tags: ["Unreal Engine", "C++", "Blueprint", "Plugin", "Multijoueur"],
-        image: "assets/projects/UMPS.jpg",
-        links: [
-          { label: "link.fab", url: "https://www.fab.com/listings/0da4dac5-8190-4b24-8a4c-5db19f417f56" }
-        ]
-      },
-      {
-        id: "fps",
-        title: "Multiplayer FPS",
-        kind: "personal",
-        desc: "FPS multijoueur inspiré de CS:GO, développé pour apprendre le C++ et les systèmes de réplication d'Unreal Engine.",
-        tags: ["Unreal Engine", "C++", "Réseau", "Réplication"],
-        image: "https://img.youtube.com/vi/lxqgcCfjygo/hqdefault.jpg",
-        links: [
-          { label: "link.video", url: "https://www.youtube.com/watch?v=lxqgcCfjygo" }
-        ]
-      },
-      {
-        id: "transcendence",
-        title: "ft_transcendence",
-        kind: "school",
-        desc: "Application web intégrant un Pong multijoueur en temps réel avec une interface moderne, une gestion avancée des utilisateurs et une architecture modulaire axée sur la sécurité et l'accessibilité.",
-        tags: ["Next.js", "React", "WebSocket", "PostgreSQL", "Redis"],
-        image: "https://img.youtube.com/vi/FeF9DL43HT0/hqdefault.jpg",
-        links: [
-          { label: "link.video", url: "https://www.youtube.com/watch?v=FeF9DL43HT0" },
-          { label: "link.github", url: "https://github.com/Noe-prt/ft_transcendence" }
-        ]
-      },
-      {
-        id: "logotham",
-        title: "Logotham",
-        kind: "personal",
-        desc: "Application web pour la création d'icônes personnalisées avec des outils IA permettant la génération aléatoire d'icônes.",
-        tags: ["Next.js", "TypeScript", "IA", "Tailwind"],
-        image: "assets/projects/Logotham.png",
-        links: [
-          { label: "link.live", url: "https://logotham.vercel.app/" },
-          { label: "link.github", url: "https://github.com/Noe-prt/logotham" }
-        ]
-      },
-      {
-        id: "cub3d",
-        title: "Cub3D",
-        kind: "school",
-        desc: "Projet de design graphique créant une perspective 3D dans un labyrinthe grâce au raycasting, semblable au célèbre Wolfenstein 3D.",
-        tags: ["C", "Raycasting", "Graphique"],
-        image: "assets/projects/Cub3D.jpg",
-        links: [
-          { label: "link.github", url: "https://github.com/Noe-prt/42-Cub3D" }
-        ]
-      },
-      {
-        id: "minishell",
-        title: "Minishell",
-        kind: "school",
-        desc: "Implémentation d'un shell Unix simple mettant l'accent sur les fonctionnalités du shell, la gestion des processus et la mémoire en C.",
-        tags: ["C", "Processus", "Shell"],
-        image: "assets/projects/minishell.jpg",
-        links: [
-          { label: "link.github", url: "https://github.com/Noe-prt/minishell" }
-        ]
-      },
-      {
-        id: "inception",
-        title: "Inception",
-        kind: "school",
-        desc: "Projet d'administration système utilisant Docker pour virtualiser plusieurs images dans une nouvelle machine virtuelle personnelle.",
-        tags: ["Docker", "DevOps", "Linux"],
-        image: "assets/projects/Inception.png",
-        links: [
-          { label: "link.github", url: "https://github.com/Noe-prt/Inception" }
-        ]
-      },
-      {
-        id: "coupletogether",
-        title: "CoupleTogether",
-        kind: "personal",
-        desc: "Une application web de planning partagé pour les couples. Consultez les emplois du temps de chacun, créez des événements récurrents et dupliquez des journées ou des semaines. Calendriers persistants, vues adaptatives et contrôles de version pour éviter les conflits de modification.",
-        tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Drizzle ORM"],
-        image: "assets/projects/CoupleTogether.svg",
-        links: [{ label: "link.live", url: "https://couple-schedule-navy.vercel.app/" }, { label: "link.github", url: "https://github.com/Noe-prt/CoupleSchedule" }]
-      }
-    ],
+  en: {
+    projects: buildProjects("en"),
     experience: [
       {
-        period: "Fév 2026 à Juil 2026",
-        role: "Développeur de jeux vidéo (stage)",
-        org: "Adzap",
-        desc: "Programmeur unique d'ElectroFix Simulator, un jeu de simulation coopératif créé en 3 mois et lancé avec succès sur Steam. Conception des systèmes de gameplay, de la réplication et de toute la programmation du jeu."
+        period: "Jan 2027 → (searching)",
+        role: "Full Stack Web Developer, work-study",
+        org: "Your company?",
+        desc: "2-year work-study position, 2 weeks at work / 1 week at 42 Paris. Eager to join a product team and ship useful, tested and maintainable features.",
+        open: true
       },
       {
-        period: "Nov 2024 à aujourd'hui",
-        role: "Étudiant",
-        org: "École 42",
-        desc: "Cursus de programmation intensif et peer-to-peer couvrant le C & C++, les algorithmes, les systèmes Unix, Docker et le développement web, en parallèle d'un apprentissage autodidacte du game development avec Unreal Engine."
+        period: "Feb 2026 → Jul 2026",
+        role: "C++ Developer (6-month internship)",
+        org: "Adzap · game studio",
+        desc: "Sole developer of ElectroFix Simulator, from design to production release on Steam in 3 months. Client-server architecture, real-time network synchronization, full release cycle (Git, builds, publishing)."
+      },
+      {
+        period: "Nov 2024 → present",
+        role: "IT Architecture Expert · RNCP level 7",
+        org: "42 Paris",
+        desc: "Completed common core: C, C++, algorithms, Unix systems, networking, Docker and web development. Project-based, peer-to-peer learning with no lectures."
       }
     ],
     skills: [
-      { title: "skills.languages", list: ["C++", "Blueprint", "C", "C#", "GDScript", "TypeScript", "SQL"] },
-      { title: "skills.gamedev", list: ["Unreal Engine", "Unity", "Godot", "Multijoueur / Réseau", "Systèmes de réplication", "Développement de plugins (Fab)", "Architecture Client-Serveur", "Game Systems Design"] },
-      { title: "skills.web", list: ["React", "Next.js", "WebSocket", "JavaScript", "TypeScript", "HTML", "CSS", "Design adaptatif", "Accessibilité"] },
-      { title: "skills.backend", list: ["Redis", "PostgreSQL", "Drizzle ORM", "API REST", "Validation avec Zod", "Modélisation de base de données", "Migrations de base de données", "Modifications simultanées", "Contrôles de version", "Stripe", "better-auth"] },
-      { title: "skills.tools", list: ["Git", "Visual Studio", "Docker"] }
+      { title: "skills.frontend", list: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML / CSS", "Responsive design", "Accessibility"] },
+      { title: "skills.backend", list: ["Node.js", "REST APIs", "WebSocket", "PostgreSQL", "Redis", "Drizzle ORM", "Migrations", "Zod", "better-auth", "Stripe"] },
+      { title: "skills.languages", list: ["TypeScript", "JavaScript", "SQL", "C", "C++"] },
+      { title: "skills.devops", list: ["Git / GitHub", "Docker", "Docker Compose", "Linux", "Vercel", "ESLint"] },
+      { title: "skills.soft", list: ["Autonomy", "Peer-learning", "Code review", "Problem solving", "Meeting deadlines"] },
+      { title: "skills.also", list: ["Client-server architecture", "Real-time / networking", "Unreal Engine"] }
     ],
     hobbies: [
-      { icon: "🎾", name: "Tennis", cls: "Tennis" },
-      { icon: "⚽", name: "Football", cls: "Football" },
-      { icon: "🎸", name: "Guitare", cls: "Guitare" },
-      { icon: "🎮", name: "Jeux vidéo", cls: "Jeux vidéo" }
+      { icon: "🎮", name: "Game development" },
+      { icon: "🎾", name: "Tennis" },
+      { icon: "⚽", name: "Football" },
+      { icon: "🎸", name: "Guitar" }
     ]
   }
 };
@@ -374,7 +259,7 @@ const DATA = {
    Render
    ============================================================ */
 
-const initials = { coupletogether: "CT", electrofix: "EF", umps: "UMPS", fps: "FPS", transcendence: "P", logotham: "L", cub3d: "C", minishell: "$", inception: "I" };
+const initials = { coupletogether: "CT", electrofix: "EF", umps: "UMPS", transcendence: "P", logotham: "L", cub3d: "C", minishell: "$", inception: "I" };
 
 function mediaHTML(p) {
   if (p.image) {
@@ -399,17 +284,17 @@ const badgeKeyFor = (kind) =>
   : "projects.badgePersonal";
 
 let activeFilter = "all";
-let currentLang = "en";
+let currentLang = "fr";
 const categoryFor = id => ["coupletogether", "transcendence", "logotham"].includes(id) ? "web"
-  : ["electrofix", "umps", "fps", "cub3d"].includes(id) ? "game" : "systems";
+  : ["inception", "minishell", "cub3d"].includes(id) ? "systems" : "other";
 
 function renderProjects(lang) {
   const d = DATA[lang];
   const t = I18N[lang];
   const grid = document.getElementById("projects-grid");
-  document.getElementById("project-count").textContent = d.projects.length;
+  document.getElementById("web-count").textContent = d.projects.filter(p => categoryFor(p.id) === "web").length;
   grid.innerHTML = d.projects.filter(p => activeFilter === "all" || categoryFor(p.id) === activeFilter).map(p => `
-    <article class="project-card">
+    <article class="project-card${categoryFor(p.id) === "web" ? " project-card--web" : ""}">
       <span class="badge badge-${p.kind}">${t[badgeKeyFor(p.kind)]}</span>
       ${mediaHTML(p)}
       <div class="project-body">
@@ -424,7 +309,7 @@ function renderProjects(lang) {
 function renderTimeline(lang) {
   const d = DATA[lang];
   document.getElementById("timeline").innerHTML = d.experience.map(e => `
-    <div class="timeline-item">
+    <div class="timeline-item${e.open ? " timeline-item--open" : ""}">
       <div class="timeline-period">${e.period}</div>
       <div class="timeline-role">${e.role}</div>
       <div class="timeline-org">${e.org}</div>
@@ -475,6 +360,10 @@ function applyLang(lang) {
   document.querySelectorAll("[data-i18n-aria]").forEach(el => {
     el.setAttribute("aria-label", t[el.dataset.i18nAria]);
   });
+  ["cv-link", "cv-link-2"].forEach(id => {
+    const a = document.getElementById(id);
+    if (a) a.href = t["cv.file"];
+  });
   renderProjects(lang);
   renderTimeline(lang);
   renderSkills(lang);
@@ -484,9 +373,10 @@ function applyLang(lang) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  let saved = "en";
-  try { saved = localStorage.getItem("lang") || "en"; } catch (e) {}
-  applyLang(saved === "fr" ? "fr" : "en");
+  let saved = null;
+  try { saved = localStorage.getItem("lang"); } catch (e) {}
+  if (!saved) saved = (navigator.language || "fr").toLowerCase().startsWith("fr") ? "fr" : "en";
+  applyLang(saved === "en" ? "en" : "fr");
 
   document.querySelectorAll(".filter-btn").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -499,6 +389,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   document.querySelectorAll(".lang-btn").forEach((btn) => {
-    btn.addEventListener("click", () => applyLang(btn.dataset.lang === "fr" ? "fr" : "en"));
+    btn.addEventListener("click", () => applyLang(btn.dataset.lang === "en" ? "en" : "fr"));
   });
 });
