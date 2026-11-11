@@ -130,8 +130,8 @@ const IMAGES = {
   transcendence: "https://img.youtube.com/vi/FeF9DL43HT0/hqdefault.jpg",
   logotham: "assets/projects/Logotham.png",
   electrofix: "assets/projects/Electrofix.jpg",
-  inception: "assets/projects/Inception.png",
-  minishell: "assets/projects/minishell.jpg",
+  inception: "assets/projects/Inception.svg",
+  minishell: "assets/projects/Minishell.svg",
   umps: "assets/projects/UMPS.jpg",
   cub3d: "assets/projects/Cub3D.jpg"
 };
@@ -141,8 +141,8 @@ const META = {
   transcendence: { title: "ft_transcendence", kind: "school", tags: ["Next.js", "React", "WebSocket", "PostgreSQL", "Redis"] },
   logotham: { title: "Logotham", kind: "personal", tags: ["Next.js", "TypeScript", "Tailwind", "AI APIs"] },
   electrofix: { title: "ElectroFix Simulator", kind: "professional", tags: ["C++", "Client-server", "Real-time sync", "Unreal Engine"] },
-  inception: { title: "Inception", kind: "school", tags: ["Docker", "Docker Compose", "Linux", "DevOps"] },
-  minishell: { title: "Minishell", kind: "school", tags: ["C", "Unix", "Processes"] },
+  inception: { title: "Inception", kind: "school", tags: ["Docker", "Docker Compose", "NGINX", "MariaDB", "Linux"] },
+  minishell: { title: "Minishell", kind: "school", tags: ["C", "Unix", "Processes", "Pipes", "Signals"] },
   umps: { title: "UMPS", kind: "personal", tags: ["C++", "Plugin", "Multiplayer", "Unreal Engine"] },
   cub3d: { title: "Cub3D", kind: "school", tags: ["C", "Raycasting", "Graphics"] }
 };
@@ -153,8 +153,8 @@ const DESC = {
     transcendence: "Application web complète autour d'un Pong multijoueur en temps réel via WebSocket : authentification, gestion des utilisateurs, interface moderne et architecture modulaire pensée pour la sécurité et l'accessibilité.",
     logotham: "Application web de génération d'icônes personnalisées grâce à des outils d'IA, avec génération aléatoire. Développée en Next.js / TypeScript et déployée sur Vercel.",
     electrofix: "Produit livré en production pendant mon stage chez Adzap : seul développeur, de la conception à la sortie sur Steam en 3 mois. Architecture client-serveur et synchronisation temps réel entre joueurs.",
-    inception: "Infrastructure de services conteneurisés avec Docker et Docker Compose sur une machine virtuelle Linux : réseau, volumes et configuration de chaque service.",
-    minishell: "Shell Unix écrit en C : parsing, gestion des processus, pipes, redirections et gestion rigoureuse de la mémoire.",
+    inception: "Infrastructure web conteneurisée avec Docker Compose sur une VM Linux : NGINX en HTTPS (TLS), WordPress / php-fpm et MariaDB, chacun dans son conteneur, reliés par un réseau Docker dédié avec volumes persistants.",
+    minishell: "Shell Unix inspiré de bash, écrit en C : parsing des commandes, pipes, redirections et heredoc, variables d'environnement, gestion des processus (fork / execve) et des signaux, sans fuite mémoire.",
     umps: "Plugin publié sur la marketplace Fab qui simule un smartphone en multijoueur (messages, appels vidéo, caméra, navigateur web…). Produit distribué à des utilisateurs réels.",
     cub3d: "Moteur de rendu 3D par raycasting en C, inspiré de Wolfenstein 3D."
   },
@@ -163,8 +163,8 @@ const DESC = {
     transcendence: "Full web application built around real-time multiplayer Pong over WebSocket: authentication, user management, modern UI and a modular architecture focused on security and accessibility.",
     logotham: "Web app that generates custom icons with AI tools, including random generation. Built with Next.js / TypeScript and deployed on Vercel.",
     electrofix: "Product shipped to production during my internship at Adzap: sole developer, from design to Steam release in 3 months. Client-server architecture and real-time synchronization between players.",
-    inception: "Containerized services infrastructure with Docker and Docker Compose on a Linux virtual machine: networking, volumes and per-service configuration.",
-    minishell: "Unix shell written in C: parsing, process management, pipes, redirections and careful memory handling.",
+    inception: "Containerized web infrastructure with Docker Compose on a Linux VM: NGINX over HTTPS (TLS), WordPress / php-fpm and MariaDB, each in its own container, linked by a dedicated Docker network with persistent volumes.",
+    minishell: "Bash-inspired Unix shell written in C: command parsing, pipes, redirections and heredoc, environment variables, process (fork / execve) and signal handling, with no memory leaks.",
     umps: "Plugin published on the Fab marketplace that simulates a smartphone in multiplayer (messages, video calls, camera, web browser…). A product distributed to real users.",
     cub3d: "3D raycasting renderer written in C, inspired by Wolfenstein 3D."
   }
