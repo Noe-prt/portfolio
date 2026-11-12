@@ -9,22 +9,18 @@ const I18N = {
     "nav.experience": "Parcours",
     "nav.skills": "Compétences",
     "nav.contact": "Contact",
-    "hero.status": "Disponible en alternance · dès le 5 janvier 2027",
     "hero.greeting": "Bonjour, je suis",
     "hero.role": "Développeur Web Full Stack",
     "hero.sub": "Je conçois des applications web complètes avec React, Next.js, TypeScript et PostgreSQL, du schéma de base de données jusqu'à l'interface.",
     "hero.viewProjects": "Voir les projets",
-    "hero.cv": "Télécharger mon CV",
     "hero.ageLine": "20 ans · Étudiant à 42 Paris",
-    "hero.rhythm": "Rythme 2 sem. entreprise / 1 sem. école",
     "hero.location": "Courbevoie · Paris",
     "hero.caption": "Des produits web utiles, pensés pour durer.",
     "about.title": "À propos",
-    "about.body": "Étudiant à 42 Paris depuis novembre 2024, je prépare le titre RNCP niveau 7 « Expert en architecture informatique ». Je développe des applications web full stack : interfaces React / Next.js, API typées en TypeScript, bases PostgreSQL et déploiement. Pendant mon stage de 6 mois chez Adzap, j'ai conçu et livré seul un produit multijoueur en production — une expérience qui m'a appris à gérer un projet de bout en bout, à tenir des délais et à penser architecture client-serveur. Je recherche aujourd'hui une alternance de 2 ans pour rejoindre une équipe produit.",
+    "about.body": "Étudiant à 42 Paris depuis novembre 2024, je prépare le titre RNCP niveau 7 « Expert en architecture informatique ». Je développe des applications web full stack : interfaces React / Next.js, API typées en TypeScript, bases PostgreSQL et déploiement. Pendant mon stage de 6 mois chez Adzap, j'ai conçu et livré seul un produit multijoueur en production — une expérience qui m'a appris à gérer un projet de bout en bout, à tenir des délais et à penser architecture client-serveur.",
     "about.web": "Applications web",
     "about.intern": "Mois de stage en production",
-    "about.degree": "Titre visé à 42 Paris",
-    "about.years": "Ans d'alternance recherchés",
+    "about.degree": "Titre en cours à 42 Paris",
     "projects.title": "Projets choisis",
     "projects.sub": "Applications web full stack, projets d'infrastructure à 42 et produits livrés en production.",
     "projects.badgeSchool": "42 Paris",
@@ -45,15 +41,12 @@ const I18N = {
     "projects.filters": "Catégories de projets",
     "hobbies.title": "En dehors du code",
     "contact.title": "Travaillons ensemble",
-    "contact.sub": "Je recherche une alternance de 2 ans en développement web à partir du 5 janvier 2027, au rythme de 2 semaines en entreprise / 1 semaine à l'école. Parlons-en !",
-    "contact.cv": "CV (PDF)",
     "footer.text": "© 2026 Noé Pareti. Conçu avec du HTML, CSS & JS pur.",
     "link.github": "GitHub",
     "link.video": "Voir la vidéo",
     "link.live": "Démo en ligne",
     "link.steam": "Steam",
-    "link.fab": "Fab",
-    "cv.file": "assets/cv/Noe-Pareti-CV-FR.pdf"
+    "link.fab": "Fab"
   },
   en: {
     "nav.about": "About",
@@ -61,22 +54,18 @@ const I18N = {
     "nav.experience": "Background",
     "nav.skills": "Skills",
     "nav.contact": "Contact",
-    "hero.status": "Open to a work-study position · from January 5, 2027",
     "hero.greeting": "Hi, I'm",
     "hero.role": "Full Stack Web Developer",
     "hero.sub": "I build complete web applications with React, Next.js, TypeScript and PostgreSQL, from the database schema all the way to the UI.",
     "hero.viewProjects": "View projects",
-    "hero.cv": "Download my resume",
     "hero.ageLine": "20 years old · 42 Paris student",
-    "hero.rhythm": "2 weeks at work / 1 week at school",
     "hero.location": "Courbevoie · Paris",
     "hero.caption": "Useful web products, built to last.",
     "about.title": "About",
-    "about.body": "I've been studying at 42 Paris since November 2024, working towards the RNCP level 7 \"IT Architecture Expert\" degree (Master's equivalent). I build full stack web applications: React / Next.js interfaces, typed TypeScript APIs, PostgreSQL databases and deployment. During my 6-month internship at Adzap, I designed and shipped a multiplayer product to production on my own — which taught me to own a project end to end, meet deadlines and think in client-server architecture. I'm now looking for a 2-year work-study position to join a product team.",
+    "about.body": "I've been studying at 42 Paris since November 2024, working towards the RNCP level 7 \"IT Architecture Expert\" degree (Master's equivalent). I build full stack web applications: React / Next.js interfaces, typed TypeScript APIs, PostgreSQL databases and deployment. During my 6-month internship at Adzap, I designed and shipped a multiplayer product to production on my own — which taught me to own a project end to end, meet deadlines and think in client-server architecture.",
     "about.web": "Web applications",
     "about.intern": "Month internship in production",
-    "about.degree": "Degree at 42 Paris",
-    "about.years": "Year work-study wanted",
+    "about.degree": "Degree I'm pursuing at 42 Paris",
     "projects.title": "Selected work",
     "projects.sub": "Full stack web applications, infrastructure projects at 42 and products shipped to production.",
     "projects.badgeSchool": "42 Paris",
@@ -97,15 +86,12 @@ const I18N = {
     "projects.filters": "Project categories",
     "hobbies.title": "Outside of code",
     "contact.title": "Let's work together",
-    "contact.sub": "I'm looking for a 2-year work-study position in web development starting January 5, 2027, with a 2 weeks at work / 1 week at school schedule. Let's talk!",
-    "contact.cv": "Resume (PDF)",
     "footer.text": "© 2026 Noé Pareti. Built with vanilla HTML, CSS & JS.",
     "link.github": "GitHub",
     "link.video": "Watch video",
     "link.live": "Live demo",
     "link.steam": "Steam",
-    "link.fab": "Fab",
-    "cv.file": "assets/cv/Noe-Pareti-CV-EN.pdf"
+    "link.fab": "Fab"
   }
 };
 
@@ -181,13 +167,6 @@ const DATA = {
     projects: buildProjects("fr"),
     experience: [
       {
-        period: "Janv. 2027 → (recherche)",
-        role: "Développeur Web Full Stack en alternance",
-        org: "Votre entreprise ?",
-        desc: "Alternance de 2 ans, rythme 2 semaines en entreprise / 1 semaine à 42 Paris. Envie de rejoindre une équipe produit et de livrer des fonctionnalités utiles, testées et maintenables.",
-        open: true
-      },
-      {
         period: "Fév. 2026 → Juil. 2026",
         role: "Développeur C++ (stage 6 mois)",
         org: "Adzap · studio de jeux vidéo",
@@ -218,13 +197,6 @@ const DATA = {
   en: {
     projects: buildProjects("en"),
     experience: [
-      {
-        period: "Jan 2027 → (searching)",
-        role: "Full Stack Web Developer, work-study",
-        org: "Your company?",
-        desc: "2-year work-study position, 2 weeks at work / 1 week at 42 Paris. Eager to join a product team and ship useful, tested and maintainable features.",
-        open: true
-      },
       {
         period: "Feb 2026 → Jul 2026",
         role: "C++ Developer (6-month internship)",
@@ -359,10 +331,6 @@ function applyLang(lang) {
 
   document.querySelectorAll("[data-i18n-aria]").forEach(el => {
     el.setAttribute("aria-label", t[el.dataset.i18nAria]);
-  });
-  ["cv-link", "cv-link-2"].forEach(id => {
-    const a = document.getElementById(id);
-    if (a) a.href = t["cv.file"];
   });
   renderProjects(lang);
   renderTimeline(lang);
